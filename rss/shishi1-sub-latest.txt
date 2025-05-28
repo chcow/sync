@@ -1,1 +1,1 @@
-https://terfghtll.dashuai.us/api/v1/client/subscribe?token=61e4e542e0e9ec0020fdcde770a5a35c
+https://terfghtll.dashuai.us/api/v1/client/subscribe?token=1e0d7f44fd35ca15794fb679ac85a8e7
