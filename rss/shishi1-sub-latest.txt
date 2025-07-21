@@ -1,1 +1,1 @@
-https://sdfhkrecvbfrs7.dashuai.us/api/v1/client/subscribe?token=450bc96c19bbe2ce1d1205566045e496
+https://sdfhkrecvbfrs7.dashuai.us/api/v1/client/subscribe?token=db7cd1cb492fcb1ae99899f35b548be3
