@@ -1,0 +1,514 @@
+# ;V2rayse Auto Generated
+# ;ruleset=🎯 全球直连,[]GEOIP,LAN
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+ipv6: false
+log-level: info
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  - 8.8.8.8
+proxies:
+- type: hysteria
+  name: '[Live] 🇫🇷_FR_法国'
+  server: 62.210.196.68
+  port: 26691
+  auth-str: dongtaiwang.com
+  up: 11 Mbps
+  down: 55 Mbps
+  sni: apple.com
+  skip-cert-verify: true
+- type: hysteria
+  name: '[Live] 🇫🇷_FR_法国_1'
+  server: 62.210.10.186
+  port: 35511
+  auth-str: dongtaiwang.com
+  up: '11'
+  down: '55'
+  sni: apple.com
+  skip-cert-verify: true
+- type: hysteria
+  name: '[Live] 🇫🇷_FR_法国_2'
+  server: 62.210.10.186
+  port: 50011
+  auth-str: dongtaiwang.com
+  up: 11 Mbps
+  down: 55 Mbps
+  sni: apple.com
+  skip-cert-verify: true
+- type: vless
+  name: '[Live] 🇬🇧_GB_英国'
+  server: 51.250.10.228
+  port: 443
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: 65c7748be8
+  servername: sun6-21.userapi.com
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 178.154.205.131
+  port: 443
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: 672ff0
+  servername: ads.x5.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  servername: i2pd.website
+- type: ss
+  name: '[Live] 🇩🇪_DE_德国'
+  server: 45.87.175.174
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- type: vless
+  name: '[Live] 🇵🇱_PL_波兰'
+  server: 185.136.132.171
+  port: 24170
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+  servername: speedtest.net
+- type: vmess
+  name: '[Live] 🇫🇷 法国 09'
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vmess
+  name: '[Live] 【机场推荐：https://a0a.xyz/】17'
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+- type: hysteria
+  name: '[Free] 🇫🇷_FR_法国'
+  server: 62.210.196.68
+  port: 26691
+  auth-str: dongtaiwang.com
+  up: 11 Mbps
+  down: 55 Mbps
+  sni: apple.com
+  skip-cert-verify: true
+- type: hysteria
+  name: '[Free] 🇫🇷_FR_法国_1'
+  server: 62.210.10.186
+  port: 35511
+  auth-str: dongtaiwang.com
+  up: '11'
+  down: '55'
+  sni: apple.com
+  skip-cert-verify: true
+- type: hysteria
+  name: '[Free] 🇫🇷_FR_法国_2'
+  server: 62.210.10.186
+  port: 50011
+  auth-str: dongtaiwang.com
+  up: 11 Mbps
+  down: 55 Mbps
+  sni: apple.com
+  skip-cert-verify: true
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国'
+  server: 51.250.10.228
+  port: 443
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: 65c7748be8
+  servername: sun6-21.userapi.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: 178.154.205.131
+  port: 443
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: 672ff0
+  servername: ads.x5.ru
+- type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  servername: i2pd.website
+- type: ss
+  name: '[Free] 🇩🇪_DE_德国'
+  server: 45.87.175.174
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- type: vless
+  name: '[Free] 🇵🇱_PL_波兰'
+  server: 185.136.132.171
+  port: 24170
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+  servername: speedtest.net
+- type: vmess
+  name: '[Free] 🇫🇷 法国 09'
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vmess
+  name: '[Free] 【机场推荐：https://a0a.xyz/】17'
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+- type: ss
+  name: '[Free] 🇳🇱_NL_荷兰'
+  server: 178.23.190.238
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
+- type: ss
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- type: vless
+  name: '[Free] 🇨🇳_CN_中国'
+  server: 62.60.148.21
+  port: 443
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  servername: st.ozone.ru
+- type: vless
+  name: '[Free] 🇨🇦_CA_加拿大'
+  server: 167.17.70.16
+  port: 8443
+  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
+    short-id: 84f70f1177981563
+  servername: www.microsoft.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
+  server: 208.69.78.5
+  port: 443
+  uuid: 0a21d713-6e6f-4274-8b84-464019325513
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: vMBfs89AZ02R1ggA45SqOFLfe6rJQ0_mLBpsV97k3zA
+    short-id: 9c8d68d581a08ea5
+  servername: www.microsoft.com
+- type: vless
+  name: '[Free] 🇧🇬_BG_保加利亚'
+  server: 178.239.124.30
+  port: 56482
+  uuid: 2c487d9d-25a1-4b79-aed1-086b8c3082ca
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: cloudcircus.jp
+- type: ss
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: 194.246.114.101
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国_1'
+  server: 157.173.127.224
+  port: 443
+  uuid: bec44ac3-a662-4179-a9dd-2aa881706dde
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
+    short-id: aba7bc9a
+  servername: analytics.google.com
+- type: vmess
+  name: '[Free] 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1'
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: ss
+  name: '[Free] 🇮🇷_IR_伊朗'
+  server: 217.60.249.112
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0eC4ZBvStOgQEzTpCYjWN5
+- type: ss
+  name: '[Free] 🇲🇩_MD_摩尔多瓦'
+  server: 185.153.197.5
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_3'
+  server: 104.26.1.221
+  port: 443
+  uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: dabaius2.sylu.net
+- type: ss
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 185.47.255.22
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- type: vmess
+  name: '[Free] 🇺🇸 US_188'
+  server: 216.238.87.47
+  port: 27502
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+  alterId: 0
+  cipher: auto
+  network: none
+  tls: false
+- type: vmess
+  name: '[Free] 香港|@ripaojiedian'
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: ss
+  name: '[Free] 🇨🇳_CN_中国_1'
+  server: 103.149.183.80
+  port: 8388
+  cipher: chacha20-ietf
+  password: asd123456
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_5'
+  server: www.gov.ua
+  port: 8080
+  uuid: 046da250-d5ef-4867-9095-302477d54d20
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_6'
+  server: ip.sb
+  port: 8080
+  uuid: 046da250-d5ef-4867-9095-302477d54d20
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_2'
+  server: 31.44.0.63
+  port: 58349
+  uuid: 48a8cab5-ce75-4c8a-90f5-dcd020c89b4b
+  network: tcp
+  tls: false
+  encryption: none
+  flow: ''
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - DIRECT
+  - '[Live] 🇫🇷_FR_法国'
+  - '[Live] 🇫🇷_FR_法国_1'
+  - '[Live] 🇫🇷_FR_法国_2'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇵🇱_PL_波兰'
+  - '[Live] 🇫🇷 法国 09'
+  - '[Live] 【机场推荐：https://a0a.xyz/】17'
+  - '[Free] 🇫🇷_FR_法国'
+  - '[Free] 🇫🇷_FR_法国_1'
+  - '[Free] 🇫🇷_FR_法国_2'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇩🇪_DE_德国'
+  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇫🇷 法国 09'
+  - '[Free] 【机场推荐：https://a0a.xyz/】17'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇨🇦_CA_加拿大'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇧🇬_BG_保加利亚'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1'
+  - '[Free] 🇮🇷_IR_伊朗'
+  - '[Free] 🇲🇩_MD_摩尔多瓦'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇺🇸 US_188'
+  - '[Free] 香港|@ripaojiedian'
+  - '[Free] 🇨🇳_CN_中国_1'
+  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - '[Live] 🇫🇷_FR_法国'
+  - '[Live] 🇫🇷_FR_法国_1'
+  - '[Live] 🇫🇷_FR_法国_2'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇵🇱_PL_波兰'
+  - '[Live] 🇫🇷 法国 09'
+  - '[Live] 【机场推荐：https://a0a.xyz/】17'
+  - '[Free] 🇫🇷_FR_法国'
+  - '[Free] 🇫🇷_FR_法国_1'
+  - '[Free] 🇫🇷_FR_法国_2'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇩🇪_DE_德国'
+  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇫🇷 法国 09'
+  - '[Free] 【机场推荐：https://a0a.xyz/】17'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇨🇦_CA_加拿大'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇧🇬_BG_保加利亚'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1'
+  - '[Free] 🇮🇷_IR_伊朗'
+  - '[Free] 🇲🇩_MD_摩尔多瓦'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇺🇸 US_188'
+  - '[Free] 香港|@ripaojiedian'
+  - '[Free] 🇨🇳_CN_中国_1'
+  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+- name: 🛑 全球拦截
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rules/providers/LocalAreaNetwork.list
+    interval: 86400
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+    path: ./rules/providers/ProxyLite.list
+    interval: 86400
+rules:
+- RULE-SET,LocalAreaNetwork,🎯 全球直连
+- RULE-SET,ProxyLite,🚀 节点选择
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
