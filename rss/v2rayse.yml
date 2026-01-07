@@ -17,20 +17,26 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇨🇳_CN_中国'
-  server: tw1.miyazono-kaori.com
-  port: 443
-  uuid: 1365fded-4e60-4057-b408-0e8fa083108e
-  network: tcp
-  tls: true
+  name: '[Live] 🇺🇸_US_美国'
+  server: 151.101.3.8
+  port: 80
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  network: ws
+  tls: false
   encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
-    short-id: c0d856ec
-  servername: www.apple.com
+  flow: ''
 - type: vless
   name: '[Live] 🇩🇪_DE_德国'
+  server: api.dark-coffe.com
+  port: 2096
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: PjHqGd1N0i.HiGhSmArTcO.cOm
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_1'
   server: api.dark-coffe.com
   port: 443
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
@@ -40,34 +46,14 @@ proxies:
   flow: ''
   servername: Lg9JlQc0Vy.HiGhSmArTcO.cOm
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 69.84.182.108
-  port: 443
-  uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: pq-us4.globals-download.com
-- type: vless
-  name: '[Live] 🏳️_unKnow_未知'
-  server: Evay_vpn.fast.hosting-ip.com
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 151.101.2.219
   port: 80
-  uuid: d03d8fc0-23ce-461a-97fa-2a7e0a66d8db
+  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
   network: ws
   tls: false
   encryption: none
   flow: ''
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: cr7.zx-shop.ir
-  port: 2096
-  uuid: 725f7cc0-af7e-40b8-e2c1-72e29bc00529
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: Nvm.website-game.ir
 - type: vmess
   name: '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
   server: zula.ir
@@ -82,28 +68,8 @@ proxies:
     headers:
       Host: nasnet-511952424.mcitel.co
 - type: vless
-  name: '[Live] 🇨🇳_CN_中国_1'
-  server: 8.223.63.150
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: www.sgxaniu.qzz.io
-- type: vless
-  name: '[Live] 🇩🇪_DE_德国_1'
-  server: api.dark-coffe.com
-  port: 2096
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: PjHqGd1N0i.HiGhSmArTcO.cOm
-- type: vless
-  name: '[Live] 🏳️_unKnow_未知_1'
-  server: khabarovsk.geodema.network
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 91.243.82.82
   port: 443
   uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
   network: tcp
@@ -114,19 +80,30 @@ proxies:
     public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
     short-id: 1ed136481e0ede74
   servername: khabarovsk.geodema.network
-- type: vless
-  name: '[Live] 🇮🇶_IQ_伊拉克'
-  server: 178.17.53.28
-  port: 47539
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  servername: yandex.ru
+- type: ss
+  name: '[Live] 🇯🇴_JO_约旦'
+  server: 91.106.109.74
+  port: 11201
+  cipher: chacha20-ietf-poly1305
+  password: 11bf054dcc0342cd
+- type: ss
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: 51.89.10.72
+  port: 11201
+  cipher: chacha20-ietf-poly1305
+  password: 78c2e39121c820fb
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国'
+  server: 168.126.234.233
+  port: 28860
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: ss
+  name: '[Live] 🇬🇧_GB_英国'
+  server: 82.38.31.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - type: vmess
   name: '[Free] 🇭🇰HK-42.98.241.59-5038'
   server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
@@ -395,16 +372,16 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🏳️_unKnow_未知'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇨🇳_CN_中国_1'
+  - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🏳️_unKnow_未知_1'
-  - '[Live] 🇮🇶_IQ_伊拉克'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
+  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇯🇴_JO_约旦'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Free] 🇭🇰HK-42.98.241.59-5038'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇨🇳_CN_中国'
@@ -435,16 +412,16 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🏳️_unKnow_未知'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇨🇳_CN_中国_1'
+  - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🏳️_unKnow_未知_1'
-  - '[Live] 🇮🇶_IQ_伊拉克'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
+  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇯🇴_JO_约旦'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Free] 🇭🇰HK-42.98.241.59-5038'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇨🇳_CN_中国'
