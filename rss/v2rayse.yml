@@ -16,6 +16,32 @@ dns:
   - 114.114.114.114
   - 8.8.8.8
 proxies:
+- type: vmess
+  name: '[Live] 🇭🇰HK-8.210.166.22-0466'
+  server: n1761214911.74qxv.top
+  port: 443
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: n1761214911.74qxv.top
+  servername: n1761214911.74qxv.top
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国'
+  server: 121.170.203.147
+  port: 61417
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国_1'
+  server: 121.170.203.136
+  port: 2071
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
   server: 151.101.3.8
@@ -25,131 +51,131 @@ proxies:
   tls: false
   encryption: none
   flow: ''
-- type: vless
-  name: '[Live] 🇩🇪_DE_德国'
-  server: api.dark-coffe.com
-  port: 2096
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: PjHqGd1N0i.HiGhSmArTcO.cOm
-- type: vless
-  name: '[Live] 🇩🇪_DE_德国_1'
-  server: api.dark-coffe.com
-  port: 443
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: Lg9JlQc0Vy.HiGhSmArTcO.cOm
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国_2'
+  server: 221.150.109.89
+  port: 43231
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: 151.101.2.219
-  port: 80
-  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vmess
-  name: '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  server: zula.ir
-  port: 8080
-  uuid: nasnet
-  alterId: 0
-  cipher: chacha20-poly1305
-  network: ws
-  tls: false
-  ws-opts:
-    path: /nasnet/cdn?ed=2560
-    headers:
-      Host: nasnet-511952424.mcitel.co
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 91.243.82.82
+  server: cloudflare.182682.xyz
   port: 443
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-  network: tcp
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
   tls: true
   encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: khabarovsk.geodema.network
-- type: ss
-  name: '[Live] 🇯🇴_JO_约旦'
-  server: 91.106.109.74
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 11bf054dcc0342cd
-- type: ss
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: 51.89.10.72
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 78c2e39121c820fb
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
 - type: ss
-  name: '[Live] 🇰🇷_KR_韩国'
+  name: '[Live] 🇰🇷_KR_韩国_3'
   server: 168.126.234.233
   port: 28860
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- type: ss
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: 20.247.137.183
+  port: 443
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: page.anjue39.qzz.io
 - type: vmess
-  name: '[Free] 🇭🇰HK-42.98.241.59-5038'
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-  port: 80
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  alterId: 2
+  name: '[Free] 🇭🇰HK-8.210.166.22-0466'
+  server: n1761214911.74qxv.top
+  port: 443
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  alterId: 0
   cipher: auto
   network: ws
-  tls: false
+  tls: true
   ws-opts:
     path: /
     headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-- type: vless
-  name: '[Free] 🇩🇪_DE_德国'
-  server: api.dark-coffe.com
-  port: 443
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: Lg9JlQc0Vy.HiGhSmArTcO.cOm
-- type: vless
-  name: '[Free] 🇨🇳_CN_中国'
-  server: tw1.miyazono-kaori.com
-  port: 443
-  uuid: 1365fded-4e60-4057-b408-0e8fa083108e
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
-    short-id: c0d856ec
-  servername: www.apple.com
+      Host: n1761214911.74qxv.top
+  servername: n1761214911.74qxv.top
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国'
+  server: 121.170.203.147
+  port: 61417
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_1'
+  server: 121.170.203.136
+  port: 2071
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
-  server: whatismyipaddress.com
+  server: 151.101.3.8
   port: 80
-  uuid: 18ff277a-3b9a-46a0-842e-290f2b0661d2
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   network: ws
   tls: false
   encryption: none
   flow: ''
-  servername: hidden-base-217b.powas74490.workers.dev
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_2'
+  server: 221.150.109.89
+  port: 43231
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_3'
+  server: 168.126.234.233
+  port: 28860
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_3'
+  server: 20.247.137.183
+  port: 443
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: page.anjue39.qzz.io
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_4'
+  server: 218.234.149.9
+  port: 4483
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vmess
   name: '[Free] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
   server: zula.ir
@@ -163,184 +189,22 @@ proxies:
     path: /nasnet/cdn?ed=2560
     headers:
       Host: nasnet-511952424.mcitel.co
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_5'
+  server: 218.38.103.150
+  port: 39502
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
-  name: '[Free] 🇩🇪_DE_德国_1'
+  name: '[Free] 🇩🇪_DE_德国'
   server: api.dark-coffe.com
-  port: 2096
+  port: 443
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: PjHqGd1N0i.HiGhSmArTcO.cOm
-- type: vless
-  name: '[Free] 🏳️_unKnow_未知'
-  server: Evay_vpn.fast.hosting-ip.com
-  port: 80
-  uuid: d03d8fc0-23ce-461a-97fa-2a7e0a66d8db
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Free] 🇬🇧_GB_英国'
-  server: cr7.zx-shop.ir
-  port: 2096
-  uuid: 725f7cc0-af7e-40b8-e2c1-72e29bc00529
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: Nvm.website-game.ir
-- type: vless
-  name: '[Free] 🏳️_unKnow_未知_1'
-  server: japan.geodema.network
-  port: 443
-  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: japan.geodema.network
-- type: ss
-  name: '[Free] 🇬🇧_GB_英国_1'
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_1'
-  server: 142.91.106.176
-  port: 443
-  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: japan.geodema.network
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯'
-  server: brghxqxyoy-518237151-direct.bahame.co
-  port: 443
-  uuid: brghxqxyoy
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: brghxqxyoy-518237151-direct.bahame.co
-- type: vless
-  name: '[Free] 🇮🇶_IQ_伊拉克'
-  server: 178.17.53.28
-  port: 47539
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_2'
-  server: 172.66.156.81
-  port: 80
-  uuid: 57f56a3c-0e10-4fb2-ad70-3db23a572b0f
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: ss
-  name: '[Free] 🇺🇸_US_美国_3'
-  server: 51.89.10.72
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 78c2e39121c820fb
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国'
-  server: 218.234.149.9
-  port: 4483
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: vmess
-  name: '[Free] 🇭🇰HK-42.98.241.59-0368'
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
-  port: 80
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_4'
-  server: 69.84.182.108
-  port: 443
-  uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: pq-us4.globals-download.com
-- type: vless
-  name: '[Free] 🇧🇷_BR_巴西'
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_1'
-  server: 211.201.169.70
-  port: 19307
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_1'
-  server: 83.166.236.201
-  port: 8443
-  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 8f222b3475800821
-  servername: m.vk.com
-- type: vless
-  name: '[Free] 🇨🇳_CN_中国_1'
-  server: 8.223.63.150
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: www.sgxaniu.qzz.io
-- type: ss
-  name: '[Free] 🇺🇸_US_美国_5'
-  server: 38.165.233.93
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_2'
-  server: 218.38.103.150
-  port: 39502
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
 - type: vmess
   name: '[Free] 🇭🇰HK(AzadNet.t.me)'
   server: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net
@@ -355,100 +219,260 @@ proxies:
     headers:
       Host: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net
 - type: ss
-  name: '[Free] 🇷🇺_RU_俄罗斯_2'
-  server: 163.171.148.71
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 312ee9bcc9570095
+  name: '[Free] 🇰🇷_KR_韩国_6'
+  server: 221.139.79.41
+  port: 41240
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇦🇲_AM_亚美尼亚'
+  server: game.overload.ovh
+  port: 7443
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI
+    short-id: a20d3ed244c76426
+  servername: game.overload.ovh
 - type: ss
-  name: '[Free] 🇺🇸_US_美国_6'
-  server: 15.204.28.84
-  port: 11201
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: 178.130.46.148
+  port: 47345
   cipher: chacha20-ietf-poly1305
-  password: f96d6b42e30595dc
+  password: nGSRvZ5IsYcRNDpDtNVrkV
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 155.212.164.103
+  port: 443
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: VtTa1_wXkB9yxDN5p-DIXq-jC5bcnQM_62fYfFLuX04
+    short-id: 7f9eb0824a7dbef7
+  servername: sun6-21.userapi.com
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_7'
+  server: 211.201.169.70
+  port: 19307
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇮🇶_IQ_伊拉克'
+  server: 178.17.53.28
+  port: 47539
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: 82a55f31981ea6be
+  servername: yandex.ru
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国'
+  server: 51.250.88.73
+  port: 8443
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: 6b2f4e6ac9b1d2f0
+  servername: max.ru
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: 84.22.149.180
+  port: 443
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: gjM-bk-j-jc8U29JloZhhTHDtc1rKHuXfDlN14YJlzE
+    short-id: 0758cac678bafff5
+  servername: sun6-22.userapi.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_2'
+  server: 91.243.82.82
+  port: 443
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  servername: khabarovsk.geodema.network
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国_1'
+  server: 51.250.99.49
+  port: 4249
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: -P63w9lGjUCrsgtWlR7qvHGpy93mJSspIvwfXSuVixA
+    short-id: a20d3ed244c76426
+  servername: api-maps.yandex.ru
+- type: vless
+  name: '[Free] 🏳️_unKnow_未知'
+  server: khabarovsk.geodema.network
+  port: 443
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  servername: khabarovsk.geodema.network
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_3'
+  server: 84.201.152.123
+  port: 4249
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: a20d3ed244c76426
+  servername: sun6-22.userapi.com
+- type: vless
+  name: '[Free] 🇳🇱_NL_荷兰'
+  server: 45.139.26.152
+  port: 7443
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: fd88bd27db4cc661
+  servername: eh.vk.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_4'
+  server: 95.163.183.192
+  port: 443
+  uuid: 4d94fa33-9462-48b4-b7de-8a2863560d19
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: aAbNAjiIGmMfnelOQ26e4OUveaWCoAlpVugdNqtxoX8
+    short-id: 02f2ab7581c58c8f
+  servername: sun6-21.userapi.com
+- type: vmess
+  name: '[Free] 🇬🇧 机场推荐:dafei.de 英国 01'
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇯🇴_JO_约旦'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇭🇰HK-8.210.166.22-0466'
   - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Free] 🇭🇰HK-42.98.241.59-5038'
-  - '[Free] 🇩🇪_DE_德国'
-  - '[Free] 🇨🇳_CN_中国'
-  - '[Free] 🇺🇸_US_美国'
-  - '[Free] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Free] 🇩🇪_DE_德国_1'
-  - '[Free] 🏳️_unKnow_未知'
-  - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🏳️_unKnow_未知_1'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇮🇶_IQ_伊拉克'
-  - '[Free] 🇺🇸_US_美国_2'
-  - '[Free] 🇺🇸_US_美国_3'
+  - '[Live] 🇰🇷_KR_韩国_1'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国_3'
+  - '[Live] 🇺🇸_US_美国_3'
+  - '[Free] 🇭🇰HK-8.210.166.22-0466'
   - '[Free] 🇰🇷_KR_韩国'
-  - '[Free] 🇭🇰HK-42.98.241.59-0368'
-  - '[Free] 🇺🇸_US_美国_4'
-  - '[Free] 🇧🇷_BR_巴西'
   - '[Free] 🇰🇷_KR_韩国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇨🇳_CN_中国_1'
-  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇰🇷_KR_韩国_2'
+  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇰🇷_KR_韩国_3'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇰🇷_KR_韩国_4'
+  - '[Free] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
+  - '[Free] 🇰🇷_KR_韩国_5'
+  - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇭🇰HK(AzadNet.t.me)'
+  - '[Free] 🇰🇷_KR_韩国_6'
+  - '[Free] 🇦🇲_AM_亚美尼亚'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇰🇷_KR_韩国_7'
+  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🏳️_unKnow_未知'
+  - '[Free] 🇷🇺_RU_俄罗斯_3'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇷🇺_RU_俄罗斯_4'
+  - '[Free] 🇬🇧 机场推荐:dafei.de 英国 01'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇯🇴_JO_约旦'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇭🇰HK-8.210.166.22-0466'
   - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Free] 🇭🇰HK-42.98.241.59-5038'
-  - '[Free] 🇩🇪_DE_德国'
-  - '[Free] 🇨🇳_CN_中国'
-  - '[Free] 🇺🇸_US_美国'
-  - '[Free] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Free] 🇩🇪_DE_德国_1'
-  - '[Free] 🏳️_unKnow_未知'
-  - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🏳️_unKnow_未知_1'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇮🇶_IQ_伊拉克'
-  - '[Free] 🇺🇸_US_美国_2'
-  - '[Free] 🇺🇸_US_美国_3'
+  - '[Live] 🇰🇷_KR_韩国_1'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国_3'
+  - '[Live] 🇺🇸_US_美国_3'
+  - '[Free] 🇭🇰HK-8.210.166.22-0466'
   - '[Free] 🇰🇷_KR_韩国'
-  - '[Free] 🇭🇰HK-42.98.241.59-0368'
-  - '[Free] 🇺🇸_US_美国_4'
-  - '[Free] 🇧🇷_BR_巴西'
   - '[Free] 🇰🇷_KR_韩国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇨🇳_CN_中国_1'
-  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇰🇷_KR_韩国_2'
+  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇰🇷_KR_韩国_3'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇰🇷_KR_韩国_4'
+  - '[Free] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
+  - '[Free] 🇰🇷_KR_韩国_5'
+  - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇭🇰HK(AzadNet.t.me)'
+  - '[Free] 🇰🇷_KR_韩国_6'
+  - '[Free] 🇦🇲_AM_亚美尼亚'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇰🇷_KR_韩国_7'
+  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🏳️_unKnow_未知'
+  - '[Free] 🇷🇺_RU_俄罗斯_3'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇷🇺_RU_俄罗斯_4'
+  - '[Free] 🇬🇧 机场推荐:dafei.de 英国 01'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
