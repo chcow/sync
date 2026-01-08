@@ -16,18 +16,6 @@ dns:
   - 114.114.114.114
   - 8.8.8.8
 proxies:
-- type: ss
-  name: '[Live] 🇰🇷_KR_韩国'
-  server: 221.150.109.89
-  port: 43231
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Live] 🇰🇷_KR_韩国_1'
-  server: 168.126.234.233
-  port: 28860
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
   server: 162.159.16.63
@@ -49,9 +37,9 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: ss
-  name: '[Live] 🇰🇷_KR_韩国_2'
-  server: 218.38.103.150
-  port: 39502
+  name: '[Live] 🇰🇷_KR_韩国'
+  server: 221.150.109.89
+  port: 43231
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - type: vmess
@@ -68,20 +56,11 @@ proxies:
     headers:
       Host: nasnet-511952424.mcitel.co
 - type: ss
-  name: '[Live] 🇰🇷_KR_韩国_3'
+  name: '[Live] 🇰🇷_KR_韩国_1'
   server: 121.170.203.147
   port: 61417
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- type: vless
-  name: '[Live] 🇧🇷_BR_巴西'
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
 - type: vless
   name: '[Live] 🇩🇪_DE_德国'
   server: api.dark-coffe.com
@@ -92,6 +71,48 @@ proxies:
   encryption: none
   flow: ''
   servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国_2'
+  server: 168.126.234.233
+  port: 28860
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Live] 🇮🇶_IQ_伊拉克'
+  server: 178.17.53.28
+  port: 47539
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: 82a55f31981ea6be
+  servername: yandex.ru
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_1'
+  server: api.dark-coffe.com
+  port: 2096
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+- type: vless
+  name: '[Live] 🇳🇱_NL_荷兰'
+  server: 45.139.26.152
+  port: 7443
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: fd88bd27db4cc661
+  servername: eh.vk.com
 - type: ss
   name: '[Free] 🇰🇷_KR_韩国'
   server: 221.150.109.89
@@ -378,15 +399,16 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇰🇷_KR_韩国'
   - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇰🇷_KR_韩国_3'
-  - '[Live] 🇧🇷_BR_巴西'
+  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇮🇶_IQ_伊拉克'
+  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇳🇱_NL_荷兰'
   - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇰🇷_KR_韩国_1'
   - '[Free] 🇺🇸_US_美国'
@@ -419,15 +441,16 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇰🇷_KR_韩国'
   - '[Live] @𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ |'
-  - '[Live] 🇰🇷_KR_韩国_3'
-  - '[Live] 🇧🇷_BR_巴西'
+  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇰🇷_KR_韩国_2'
+  - '[Live] 🇮🇶_IQ_伊拉克'
+  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇳🇱_NL_荷兰'
   - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇰🇷_KR_韩国_1'
   - '[Free] 🇺🇸_US_美国'
