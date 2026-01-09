@@ -25,18 +25,6 @@ proxies:
   tls: false
   encryption: none
   flow: ''
-- type: ss
-  name: '[Live] 🇰🇷_KR_韩国'
-  server: 27.255.82.135
-  port: 3733
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Live] 🇰🇷_KR_韩国_1'
-  server: 203.234.238.140
-  port: 29731
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
   server: 162.159.16.63
@@ -57,26 +45,45 @@ proxies:
   encryption: none
   flow: ''
   servername: l.ayovo.netlib.re
+- type: ss
+  name: '[Live] 🇰🇷_KR_韩国'
+  server: 121.170.203.147
+  port: 61417
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
   name: '[Live] 🇺🇸_US_美国_3'
-  server: 104.21.60.38
+  server: delilah.ns.cloudflare.com
   port: 443
-  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  uuid: 8f654717-4009-4417-af5a-8b9bf7853e79
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: 435F-8550-7B7588CC4678.008880888.XyZ
+  servername: 639034354143079886.defender-amsjs.info
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_4'
+  server: 104.17.148.22
+  port: 2083
+  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yousef.varzesh.dpdns.org
 - type: vless
   name: '[Live] 🇩🇪_DE_德国'
-  server: api.dark-coffe.com
-  port: 2087
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
+  server: dfg.octopusss.net
+  port: 22955
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  network: grpc
   tls: true
   encryption: none
   flow: ''
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  servername: one-piece.com
 - type: vless
   name: '[Live] 🇩🇪_DE_德国_1'
   server: api.dark-coffe.com
@@ -88,57 +95,21 @@ proxies:
   flow: ''
   servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
 - type: ss
-  name: '[Live] 🇩🇪_DE_德国_2'
-  server: 45.87.175.193
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
+  name: '[Live] 🇰🇷_KR_韩国_1'
+  server: 168.126.234.247
+  port: 51978
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - type: vless
-  name: '[Live] 🇩🇪_DE_德国_3'
-  server: dfg.octopusss.net
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  network: grpc
+  name: '[Free] 🇺🇸_US_美国'
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  servername: one-piece.com
-- type: vless
-  name: '[Free] 🇺🇸_US_美国'
-  server: 151.101.3.8
-  port: 80
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国'
-  server: 125.141.26.12
-  port: 52713
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_1'
-  server: 27.255.82.135
-  port: 3733
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_2'
-  server: 221.150.109.20
-  port: 42013
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_3'
-  server: 121.170.203.136
-  port: 2071
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+  servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_1'
   server: cloudflare.182682.xyz
@@ -150,28 +121,6 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_2'
-  server: 162.159.16.63
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_4'
-  server: 168.126.234.247
-  port: 51978
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_5'
-  server: 203.234.238.140
-  port: 29731
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: vless
   name: '[Free] 🇬🇧_GB_英国'
   server: 25.129.197.138
   port: 2053
@@ -181,32 +130,22 @@ proxies:
   encryption: none
   flow: ''
   servername: KhAmeneI.DPdNs.OrG
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_3'
-  server: 104.21.60.38
-  port: 443
-  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: 435F-8550-7B7588CC4678.008880888.XyZ
 - type: ss
-  name: '[Free] 🇰🇷_KR_韩国_6'
-  server: 218.38.103.150
-  port: 39502
+  name: '[Free] 🇰🇷_KR_韩国'
+  server: 121.170.203.147
+  port: 61417
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - type: vless
   name: '[Free] 🇩🇪_DE_德国'
   server: api.dark-coffe.com
-  port: 2096
+  port: 2087
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
   name: '[Free] 🇩🇪_DE_德国_1'
   server: api.dark-coffe.com
@@ -217,84 +156,6 @@ proxies:
   encryption: none
   flow: ''
   servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-- type: vless
-  name: '[Free] 🇩🇪_DE_德国_2'
-  server: api.dark-coffe.com
-  port: 2087
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_7'
-  server: 121.170.203.147
-  port: 61417
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇬🇧_GB_英国_1'
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- type: vmess
-  name: '[Free] 【机场推荐：https://a0a.xyz/】8'
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: ss
-  name: '[Free] 🇰🇷_KR_韩国_8'
-  server: 221.139.79.57
-  port: 13979
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- type: ss
-  name: '[Free] 🇩🇪_DE_德国_3'
-  server: 45.87.175.193
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- type: vless
-  name: '[Free] 🇩🇪_DE_德国_4'
-  server: picassooo.info
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  servername: one-piece.com
-- type: vless
-  name: '[Free] 🇩🇪_DE_德国_5'
-  server: dfg.octopusss.net
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  servername: one-piece.com
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_4'
-  server: 172.66.156.81
-  port: 80
-  uuid: 57f56a3c-0e10-4fb2-ad70-3db23a572b0f
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
 - type: vless
   name: '[Free] 🇮🇶_IQ_伊拉克'
   server: 178.17.53.28
@@ -309,7 +170,30 @@ proxies:
     short-id: 82a55f31981ea6be
   servername: yandex.ru
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_5'
+  name: '[Free] 🇳🇱_NL_荷兰'
+  server: ficdn16.suio.me
+  port: 443
+  uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ficdn16.suio.me
+- type: vless
+  name: '[Free] 🇩🇪_DE_德国_2'
+  server: dfg.octopusss.net
+  port: 22955
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  servername: one-piece.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
   server: delilah.ns.cloudflare.com
   port: 443
   uuid: 8f654717-4009-4417-af5a-8b9bf7853e79
@@ -319,7 +203,53 @@ proxies:
   flow: ''
   servername: 639034354143079886.defender-amsjs.info
 - type: vless
+  name: '[Free] 🇺🇸_US_美国_3'
+  server: 104.21.60.38
+  port: 443
+  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 435F-8550-7B7588CC4678.008880888.XyZ
+- type: vless
+  name: '[Free] 🇩🇪_DE_德国_3'
+  server: api.dark-coffe.com
+  port: 2096
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+- type: vless
   name: '[Free] 🏳️_unKnow_未知'
+  server: japan.geodema.network
+  port: 443
+  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  servername: japan.geodema.network
+- type: vless
+  name: '[Free] 🇻🇪_VE_委内瑞拉'
+  server: 158.160.53.57
+  port: 443
+  uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  servername: api-maps.yandex.ru
+- type: vless
+  name: '[Free] 🏳️_unKnow_未知_1'
   server: khabarovsk.geodema.network
   port: 443
   uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
@@ -332,21 +262,148 @@ proxies:
     short-id: 1ed136481e0ede74
   servername: khabarovsk.geodema.network
 - type: ss
-  name: '[Free] 🇰🇷_KR_韩国_9'
-  server: 168.126.234.233
-  port: 28860
+  name: '[Free] 🇰🇷_KR_韩国_1'
+  server: 221.139.79.57
+  port: 13979
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - type: vless
-  name: '[Free] 🇳🇱_NL_荷兰'
-  server: ficdn16.suio.me
-  port: 443
-  uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
+  name: '[Free] 🇯🇵_JP_日本'
+  server: 161.248.63.15
+  port: 41579
+  uuid: f64cdd9d-57c3-45b2-e999-c46006719646
   network: tcp
   tls: true
   encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3W_eKpL975AF7oI-mkgVtf2iK954luxwaT6C41re0RI
+    short-id: 2efb6c97c1
+  servername: www.icloud.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: 91.243.82.82
+  port: 443
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  servername: khabarovsk.geodema.network
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国_1'
+  server: 51.250.95.143
+  port: 443
+  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
+    short-id: f6
+  servername: www.mobile.yandex.ru
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_2'
+  server: 221.139.79.41
+  port: 41240
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: 176.123.164.110
+  port: 8443
+  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  servername: m.vk.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 172.66.156.81
+  port: 80
+  uuid: 57f56a3c-0e10-4fb2-ad70-3db23a572b0f
+  network: ws
+  tls: false
+  encryption: none
   flow: ''
-  servername: ficdn16.suio.me
+- type: vless
+  name: '[Free] 🇻🇪_VE_委内瑞拉_1'
+  server: 158.160.189.247
+  port: 8443
+  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  servername: m.vk.com
+- type: ss
+  name: '[Free] 🇺🇦_UA_乌克兰'
+  server: 85.90.207.104
+  port: 18794
+  cipher: chacha20-ietf-poly1305
+  password: e716d7bbae4bdd14
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_2'
+  server: 83.166.236.201
+  port: 443
+  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  servername: m.vk.com
+- type: ss
+  name: '[Free] 🇰🇷_KR_韩国_3'
+  server: 168.126.234.247
+  port: 51978
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- type: vless
+  name: '[Free] 🇻🇪_VE_委内瑞拉_2'
+  server: 158.160.189.247
+  port: 443
+  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  servername: m.vk.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_3'
+  server: 83.166.236.201
+  port: 8443
+  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  servername: m.vk.com
+- type: ss
+  name: '[Free] 🇺🇸_US_美国_5'
+  server: 23.95.75.146
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -354,84 +411,84 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国'
   - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🇩🇪_DE_德国_2'
-  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇰🇷_KR_韩国'
-  - '[Free] 🇰🇷_KR_韩国_1'
-  - '[Free] 🇰🇷_KR_韩国_2'
-  - '[Free] 🇰🇷_KR_韩国_3'
   - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇺🇸_US_美国_2'
-  - '[Free] 🇰🇷_KR_韩国_4'
-  - '[Free] 🇰🇷_KR_韩国_5'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇰🇷_KR_韩国_6'
+  - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇩🇪_DE_德国_1'
-  - '[Free] 🇩🇪_DE_德国_2'
-  - '[Free] 🇰🇷_KR_韩国_7'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 【机场推荐：https://a0a.xyz/】8'
-  - '[Free] 🇰🇷_KR_韩国_8'
-  - '[Free] 🇩🇪_DE_德国_3'
-  - '[Free] 🇩🇪_DE_德国_4'
-  - '[Free] 🇩🇪_DE_德国_5'
-  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇮🇶_IQ_伊拉克'
-  - '[Free] 🇺🇸_US_美国_5'
-  - '[Free] 🏳️_unKnow_未知'
-  - '[Free] 🇰🇷_KR_韩国_9'
   - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇩🇪_DE_德国_2'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇩🇪_DE_德国_3'
+  - '[Free] 🏳️_unKnow_未知'
+  - '[Free] 🇻🇪_VE_委内瑞拉'
+  - '[Free] 🏳️_unKnow_未知_1'
+  - '[Free] 🇰🇷_KR_韩国_1'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇰🇷_KR_韩国_2'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇻🇪_VE_委内瑞拉_1'
+  - '[Free] 🇺🇦_UA_乌克兰'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+  - '[Free] 🇰🇷_KR_韩国_3'
+  - '[Free] 🇻🇪_VE_委内瑞拉_2'
+  - '[Free] 🇷🇺_RU_俄罗斯_3'
+  - '[Free] 🇺🇸_US_美国_5'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇰🇷_KR_韩国'
   - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇩🇪_DE_德国'
   - '[Live] 🇩🇪_DE_德国_1'
-  - '[Live] 🇩🇪_DE_德国_2'
-  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇰🇷_KR_韩国_1'
   - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇰🇷_KR_韩国'
-  - '[Free] 🇰🇷_KR_韩国_1'
-  - '[Free] 🇰🇷_KR_韩国_2'
-  - '[Free] 🇰🇷_KR_韩国_3'
   - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇺🇸_US_美国_2'
-  - '[Free] 🇰🇷_KR_韩国_4'
-  - '[Free] 🇰🇷_KR_韩国_5'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇰🇷_KR_韩国_6'
+  - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇩🇪_DE_德国_1'
-  - '[Free] 🇩🇪_DE_德国_2'
-  - '[Free] 🇰🇷_KR_韩国_7'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 【机场推荐：https://a0a.xyz/】8'
-  - '[Free] 🇰🇷_KR_韩国_8'
-  - '[Free] 🇩🇪_DE_德国_3'
-  - '[Free] 🇩🇪_DE_德国_4'
-  - '[Free] 🇩🇪_DE_德国_5'
-  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇮🇶_IQ_伊拉克'
-  - '[Free] 🇺🇸_US_美国_5'
-  - '[Free] 🏳️_unKnow_未知'
-  - '[Free] 🇰🇷_KR_韩国_9'
   - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇩🇪_DE_德国_2'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇩🇪_DE_德国_3'
+  - '[Free] 🏳️_unKnow_未知'
+  - '[Free] 🇻🇪_VE_委内瑞拉'
+  - '[Free] 🏳️_unKnow_未知_1'
+  - '[Free] 🇰🇷_KR_韩国_1'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇰🇷_KR_韩国_2'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇻🇪_VE_委内瑞拉_1'
+  - '[Free] 🇺🇦_UA_乌克兰'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+  - '[Free] 🇰🇷_KR_韩国_3'
+  - '[Free] 🇻🇪_VE_委内瑞拉_2'
+  - '[Free] 🇷🇺_RU_俄罗斯_3'
+  - '[Free] 🇺🇸_US_美国_5'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
