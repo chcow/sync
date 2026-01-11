@@ -27,7 +27,7 @@ proxies:
   flow: ''
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: cloudflare.182682.xyz
+  server: 162.159.16.63
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -37,7 +37,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: 162.159.16.63
+  server: cloudflare.182682.xyz
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -45,6 +45,34 @@ proxies:
   encryption: none
   flow: ''
   servername: l.ayovo.netlib.re
+- type: vmess
+  name: '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 15'
+  server: 3ef1531d-t70f40-t6z0et-1t60o.hkt.gotochinatown.net
+  port: 80
+  uuid: ce481c6e-f4c8-11ef-bbb0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 3ef1531d-t70f40-t6z0et-1t60o.hkt.gotochinatown.net
+- type: vmess
+  name: '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 39'
+  server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
+  port: 80
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
 - type: vmess
   name: '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
     - 24'
@@ -59,8 +87,14 @@ proxies:
     path: /
     headers:
       Host: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-- type: vless
+- type: ss
   name: '[Live] 🇺🇸_US_美国_3'
+  server: 216.105.168.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: R7B0hvdW3P240G3AcVZt9U
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_4'
   server: 104.21.224.5
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -70,45 +104,15 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 25.129.197.138
-  port: 2053
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: KhAmeneI.DPdNs.OrG
-- type: vless
-  name: '[Live] 🇧🇷_BR_巴西'
-  server: 188.114.96.2
-  port: 443
-  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: Ggjd.digikala.lat
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 104.17.25.173
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
   name: '[Live] 🇺🇸_US_美国_5'
-  server: 104.21.43.168
-  port: 443
-  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  server: lord.kokopit.info
+  port: 2096
+  uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: Ggjd.digikala.lat
+  servername: 18XaCgNj9C.bAsErTy.InFo
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 151.101.3.8
@@ -437,10 +441,10 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 15'
+  - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 39'
   - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇧🇷_BR_巴西'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
   - '[Free] 🇺🇸_US_美国'
@@ -477,10 +481,10 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 15'
+  - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 39'
   - '[Live] 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇧🇷_BR_巴西'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
   - '[Free] 🇺🇸_US_美国'
