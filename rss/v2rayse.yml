@@ -46,36 +46,47 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vmess
-  name: '[Live] JP3｜原生/疑似家宽｜非常安全'
-  server: tunnel2.qqa678.com
-  port: 47083
-  uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
-  alterId: 0
+  name: '[Live] HK-220.246.190.122-5033'
+  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+  port: 80
+  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  alterId: 2
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+- type: vmess
+  name: '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 24'
+  server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
+  port: 80
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
+- type: vmess
+  name: '[Live] HK-220.246.190.122-5034'
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  port: 80
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国_3'
-  server: 104.21.224.5
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 25.129.197.138
-  port: 2053
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: KhAmeneI.DPdNs.OrG
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
   server: 104.18.185.26
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -85,7 +96,7 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_5'
+  name: '[Live] 🇺🇸_US_美国_4'
   server: 104.17.25.173
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -95,25 +106,29 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇩🇪_DE_德国'
-  server: 5.10.214.0
-  port: 2096
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-- type: vless
-  name: '[Live] 🇩🇪_DE_德国_1'
-  server: api.dark-coffe.com
+  name: '[Live] 🇺🇸_US_美国_5'
+  server: 104.21.224.5
   port: 443
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  servername: l.ayovo.netlib.re
+- type: vmess
+  name: '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 9'
+  server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+  port: 80
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 151.101.3.8
@@ -392,13 +407,15 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] JP3｜原生/疑似家宽｜非常安全'
+  - '[Live] HK-220.246.190.122-5033'
+  - '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 24'
+  - '[Live] HK-220.246.190.122-5034'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 9'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
@@ -431,13 +448,15 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] JP3｜原生/疑似家宽｜非常安全'
+  - '[Live] HK-220.246.190.122-5033'
+  - '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 24'
+  - '[Live] HK-220.246.190.122-5034'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet
+    - 9'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
