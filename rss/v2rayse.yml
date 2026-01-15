@@ -27,66 +27,6 @@ proxies:
   flow: ''
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 162.159.16.63
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: 162.159.45.232
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 162.159.44.142
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 25.129.197.138
-  port: 2053
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: KhAmeneI.DPdNs.OrG
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_5'
-  server: 104.21.224.5
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_6'
   server: 104.18.185.26
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -98,6 +38,66 @@ proxies:
 - type: vless
   name: '[Live] 🇩🇪_DE_德国'
   server: api.dark-coffe.com
+  port: 443
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+- type: vless
+  name: '[Live] 🇬🇧_GB_英国'
+  server: 25.129.197.138
+  port: 2053
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: KhAmeneI.DPdNs.OrG
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_1'
+  server: 5.10.214.5
+  port: 2087
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: 104.16.250.22
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: 104.17.25.173
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_2'
+  server: 5.10.214.5
+  port: 443
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_3'
+  server: 5.10.214.0
   port: 2096
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
@@ -106,7 +106,7 @@ proxies:
   flow: ''
   servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
 - type: vless
-  name: '[Live] 🇩🇪_DE_德国_1'
+  name: '[Live] 🇩🇪_DE_德国_4'
   server: api.dark-coffe.com
   port: 2087
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
@@ -126,7 +126,7 @@ proxies:
   flow: ''
 - type: vless
   name: '[Free] 🇺🇸_US_美国_1'
-  server: cloudflare.182682.xyz
+  server: 104.21.224.5
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -136,7 +136,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_2'
-  server: 162.159.16.63
+  server: 104.16.250.22
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -146,17 +146,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_3'
-  server: 162.159.45.232
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_4'
-  server: 162.159.44.142
+  server: 104.18.185.26
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -175,18 +165,8 @@ proxies:
   flow: ''
   servername: KhAmeneI.DPdNs.OrG
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_5'
-  server: 104.21.224.5
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_6'
-  server: 104.18.185.26
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 104.17.25.173
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -197,13 +177,13 @@ proxies:
 - type: vless
   name: '[Free] 🇩🇪_DE_德国'
   server: api.dark-coffe.com
-  port: 2096
+  port: 443
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
 - type: vless
   name: '[Free] 🇩🇪_DE_德国_1'
   server: api.dark-coffe.com
@@ -216,14 +196,14 @@ proxies:
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
   name: '[Free] 🇩🇪_DE_德国_2'
-  server: 5.10.214.5
-  port: 443
+  server: 5.10.214.0
+  port: 2096
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
 - type: vless
   name: '[Free] 🇩🇪_DE_德国_3'
   server: 5.10.214.5
@@ -236,7 +216,7 @@ proxies:
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
   name: '[Free] 🇩🇪_DE_德国_4'
-  server: 5.10.214.0
+  server: api.dark-coffe.com
   port: 2096
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
@@ -245,8 +225,21 @@ proxies:
   flow: ''
   servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
 - type: vless
+  name: '[Free] 🇮🇶_IQ_伊拉克'
+  server: 178.17.53.28
+  port: 47539
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: 82a55f31981ea6be
+  servername: yandex.ru
+- type: vless
   name: '[Free] 🇩🇪_DE_德国_5'
-  server: api.dark-coffe.com
+  server: 5.10.214.5
   port: 443
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
@@ -281,18 +274,25 @@ proxies:
     short-id: 6ba85179e30d4fc2
   servername: one-piece.com
 - type: vless
-  name: '[Free] 🇮🇶_IQ_伊拉克'
-  server: 178.17.53.28
-  port: 47539
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  network: tcp
+  name: '[Free] 🇺🇸_US_美国_5'
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  servername: yandex.ru
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_6'
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
 - type: ss
   name: '[Free] 🇰🇷_KR_韩国'
   server: 221.139.79.20
@@ -325,6 +325,16 @@ proxies:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: c7e42004e5f024be
   servername: sun6-21.userapi.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_7'
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
 - type: vmess
   name: '[Free] US27｜机房｜低风险'
   server: v4.hdacd.com
@@ -335,18 +345,8 @@ proxies:
   network: tcp
   tls: false
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_7'
-  server: 104.17.25.173
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
   name: '[Free] 🇺🇸_US_美国_8'
-  server: 104.16.250.22
+  server: 162.159.45.232
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -362,72 +362,72 @@ proxy-groups:
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇩🇪_DE_德国_2'
+  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇺🇸_US_美国_5'
-  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇩🇪_DE_德国_1'
   - '[Free] 🇩🇪_DE_德国_2'
   - '[Free] 🇩🇪_DE_德国_3'
   - '[Free] 🇩🇪_DE_德国_4'
+  - '[Free] 🇮🇶_IQ_伊拉克'
   - '[Free] 🇩🇪_DE_德国_5'
   - '[Free] 🇳🇱_NL_荷兰'
   - '[Free] 🇩🇰_DK_丹麦'
-  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇳🇱_NL_荷兰_1'
   - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] US27｜机房｜低风险'
   - '[Free] 🇺🇸_US_美国_7'
+  - '[Free] US27｜机房｜低风险'
   - '[Free] 🇺🇸_US_美国_8'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇩🇪_DE_德国_1'
+  - '[Live] 🇩🇪_DE_德国_2'
+  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇺🇸_US_美国_5'
-  - '[Free] 🇺🇸_US_美国_6'
+  - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇩🇪_DE_德国'
   - '[Free] 🇩🇪_DE_德国_1'
   - '[Free] 🇩🇪_DE_德国_2'
   - '[Free] 🇩🇪_DE_德国_3'
   - '[Free] 🇩🇪_DE_德国_4'
+  - '[Free] 🇮🇶_IQ_伊拉克'
   - '[Free] 🇩🇪_DE_德国_5'
   - '[Free] 🇳🇱_NL_荷兰'
   - '[Free] 🇩🇰_DK_丹麦'
-  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇺🇸_US_美国_5'
+  - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇰🇷_KR_韩国'
   - '[Free] 🇳🇱_NL_荷兰_1'
   - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] US27｜机房｜低风险'
   - '[Free] 🇺🇸_US_美国_7'
+  - '[Free] US27｜机房｜低风险'
   - '[Free] 🇺🇸_US_美国_8'
   url: http://www.gstatic.com/generate_204
   interval: 300
