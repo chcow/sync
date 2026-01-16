@@ -27,6 +27,26 @@ proxies:
   flow: ''
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: 104.18.185.26
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 104.17.148.22
+  port: 2083
+  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yousef.varzesh.dpdns.org
+- type: vless
   name: '[Live] 🇩🇪_DE_德国_1'
   server: picassooo.info
   port: 22955
@@ -102,29 +122,6 @@ proxies:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: 6ba85179e30d4fc2
   servername: one-piece.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 136.175.178.165
-  port: 443
-  uuid: 1b2b763f-12f2-4cab-b63c-17b335ed63c7
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  servername: navi.bankrate.com
-- type: vless
-  name: '[Live] 🇩🇪_DE_德国_7'
-  server: 5.10.214.0
-  port: 443
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 151.101.3.8
@@ -456,6 +453,8 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
   - '[Live] 🇩🇪_DE_德国_3'
@@ -463,8 +462,6 @@ proxy-groups:
   - '[Live] 🇩🇪_DE_德国_5'
   - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇩🇪_DE_德国_6'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇩🇪_DE_德国_7'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇩🇪_DE_德国'
@@ -498,6 +495,8 @@ proxy-groups:
   type: url-test
   proxies:
   - '[Live] 🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
   - '[Live] 🇩🇪_DE_德国_3'
@@ -505,8 +504,6 @@ proxy-groups:
   - '[Live] 🇩🇪_DE_德国_5'
   - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇩🇪_DE_德国_6'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇩🇪_DE_德国_7'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇩🇪_DE_德国'
