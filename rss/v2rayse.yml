@@ -97,6 +97,16 @@ proxies:
   flow: ''
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: webmail.eclass.lk
+  port: 2096
+  uuid: b8ae3c37-37d6-4d4d-93fc-1ce0bc329ba0
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: free-server.techsonic.ggff.net
+- type: vless
   name: '[Live] 🇩🇪_DE_德国_4'
   server: api.dark-coffe.com
   port: 443
@@ -442,6 +452,7 @@ proxy-groups:
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
   - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
@@ -483,6 +494,7 @@ proxy-groups:
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
   - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
