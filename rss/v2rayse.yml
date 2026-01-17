@@ -28,7 +28,7 @@ proxies:
   servername: sni.meibidi.pp.ua
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: 162.159.16.63
+  server: cloudflare.182682.xyz
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -38,7 +38,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: cloudflare.182682.xyz
+  server: 162.159.16.63
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -67,31 +67,18 @@ proxies:
   flow: ''
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: dfg.octopusss.net
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  servername: one-piece.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 104.16.250.22
+  name: '[Live] 🇩🇪_DE_德国_1'
+  server: 5.10.214.0
   port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: l.ayovo.netlib.re
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
 - type: vless
-  name: '[Live] 🇩🇪_DE_德国_1'
-  server: 5.10.214.5
+  name: '[Live] 🇩🇪_DE_德国_2'
+  server: api.dark-coffe.com
   port: 8443
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
@@ -100,15 +87,25 @@ proxies:
   flow: ''
   servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
 - type: vless
-  name: '[Live] 🇩🇪_DE_德国_2'
-  server: 5.10.214.0
-  port: 2096
+  name: '[Live] 🇩🇪_DE_德国_3'
+  server: 5.10.214.5
+  port: 2087
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+- type: vless
+  name: '[Live] 🇩🇪_DE_德国_4'
+  server: api.dark-coffe.com
+  port: 443
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: v2.dabache.top
@@ -442,10 +439,10 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
+  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
@@ -483,10 +480,10 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇩🇪_DE_德国'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇩🇪_DE_德国_1'
   - '[Live] 🇩🇪_DE_德国_2'
+  - '[Live] 🇩🇪_DE_德国_3'
+  - '[Live] 🇩🇪_DE_德国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
