@@ -18,14 +18,14 @@ dns:
 proxies:
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: vip2.kaixincloud.top
+  server: 162.159.16.63
   port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: kb.as129394.me
+  servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
   server: cloudflare.182682.xyz
@@ -38,27 +38,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: vip3.kaixincloud.top
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 162.159.16.63
+  server: 104.18.185.26
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -67,38 +47,18 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_5'
-  server: 172.64.157.136
-  port: 8443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_6'
-  server: store.ubi.com
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: 104.21.227.134
   port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: kb.as129394.me
+  servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_7'
-  server: 162.159.152.4
-  port: 443
-  uuid: 3f6b8f57-11c0-472b-9bab-9bb612a91a65
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: gulfblue.qzz.io
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_8'
-  server: 104.18.185.26
+  name: '[Live] 🇺🇸_US_美国_4'
+  server: 104.21.224.5
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -117,15 +77,58 @@ proxies:
   flow: ''
   servername: speed1.best-cloud.ir
 - type: vless
-  name: '[Free] 🇺🇸_US_美国'
-  server: vip2.kaixincloud.top
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  name: '[Live] 🇺🇸_US_美国_5'
+  server: 8.6.112.0
+  port: 8443
+  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: kb.as129394.me
+  servername: streamchat.ikoochi.ir.
+- type: vmess
+  name: '[Live] ⚡️Telegram = @SOSkeyNET'
+  server: 8.6.112.0
+  port: 2087
+  uuid: 363f58ce-df6e-42ed-a281-25ced2b436a6
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /api_surentm
+    headers:
+      Host: fgiayubxcnvxcdhfbvgsjhgdfccvxbfxgdsgdfg.vajiko.ir
+  servername: fgiayubxcnvxcdhfbvgsjhgdfccvxbfxgdsgdfg.vajiko.ir
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_6'
+  server: 162.159.152.4
+  port: 2096
+  uuid: 1d819aab-2593-40e0-a537-f1b48a6fd069
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: rb11.fasst11.shop
+- type: vless
+  name: '[Free] 🇦🇺_AU_澳大利亚'
+  server: 43.161.253.78
+  port: 9527
+  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+  network: tcp
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_1'
   server: cloudflare.182682.xyz
@@ -138,86 +141,6 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_2'
-  server: vip3.kaixincloud.top
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_3'
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_4'
-  server: 162.159.16.63
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_5'
-  server: 172.64.157.136
-  port: 8443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_6'
-  server: store.ubi.com
-  port: 443
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: kb.as129394.me
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_7'
-  server: 162.159.152.4
-  port: 443
-  uuid: 3f6b8f57-11c0-472b-9bab-9bb612a91a65
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: gulfblue.qzz.io
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_8'
-  server: 104.18.185.26
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇬🇧_GB_英国'
-  server: 25.129.197.138
-  port: 2096
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: speed1.best-cloud.ir
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_9'
   server: 104.21.224.5
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -227,7 +150,37 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_10'
+  name: '[Free] 🇺🇸_US_美国_3'
+  server: 104.18.185.26
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 162.159.45.232
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_5'
+  server: 162.159.152.4
+  port: 443
+  uuid: 3e8b5c40-28ca-4b28-9077-19ad222975de
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: inbshdh-82726362.poshakhowdy.ir
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_6'
   server: 162.159.152.4
   port: 8443
   uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
@@ -237,7 +190,71 @@ proxies:
   flow: ''
   servername: streamchat.ikoochi.ir.
 - type: vless
+  name: '[Free] 🇺🇸_US_美国_7'
+  server: 104.21.227.134
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_8'
+  server: 8.6.112.0
+  port: 8443
+  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: streamchat.ikoochi.ir.
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_9'
+  server: 162.159.152.4
+  port: 2053
+  uuid: a5f130ee-c537-48fe-aaf2-d7c1c17d0b96
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sinesukhte.ecoping1.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_10'
+  server: p1.sarvderakht.ir
+  port: 2087
+  uuid: 3c143a25-6184-419f-a2a6-7933375a1f7f
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: menugetsfull.get-service.ir
+- type: vless
   name: '[Free] 🇺🇸_US_美国_11'
+  server: 8.6.112.0
+  port: 443
+  uuid: d2c48106-5d26-419f-906c-7e01d63cb81c
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ab.nationalldt.com
+- type: vmess
+  name: '[Free] ⚡️Telegram = @SOSkeyNET'
+  server: 8.6.112.0
+  port: 2087
+  uuid: 363f58ce-df6e-42ed-a281-25ced2b436a6
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /api_surentm
+    headers:
+      Host: fgiayubxcnvxcdhfbvgsjhgdfccvxbfxgdsgdfg.vajiko.ir
+  servername: fgiayubxcnvxcdhfbvgsjhgdfccvxbfxgdsgdfg.vajiko.ir
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_12'
   server: 104.16.250.22
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -246,6 +263,25 @@ proxies:
   encryption: none
   flow: ''
   servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇮🇹_IT_意大利'
+  server: 151.101.241.242
+  port: 80
+  uuid: c82e1b65-8d23-4d2b-9b2d-e1458160466b
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_13'
+  server: 8.6.112.0
+  port: 2096
+  uuid: f0693080-e004-4baf-a1e9-258025a134a7
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: rb11.fasst11.shop
 - type: vless
   name: '[Free] 🇷🇺_RU_俄罗斯'
   server: 62.182.192.232
@@ -256,47 +292,46 @@ proxies:
   encryption: none
   flow: ''
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_12'
-  server: p1.sarvderakht.ir
-  port: 2087
-  uuid: 3c143a25-6184-419f-a2a6-7933375a1f7f
-  network: ws
+  name: '[Free] 🇨🇳_CN_中国'
+  server: 213.176.73.206
+  port: 2083
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  network: grpc
   tls: true
   encryption: none
   flow: ''
-  servername: menugetsfull.get-service.ir
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: 6da16b1335651b38
+  servername: apple.com
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_13'
-  server: 104.18.32.47
-  port: 443
-  uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463
-  network: ws
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: 78.153.139.68
+  port: 8443
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: starping.starpingshop.org
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  servername: images.apple.com
 - type: vless
   name: '[Free] 🇺🇸_US_美国_14'
-  server: 104.18.32.47
-  port: 2053
-  uuid: 4d5be192-7420-4a34-a316-ac727c678286
-  network: ws
+  server: 94.131.104.188
+  port: 8443
+  uuid: d0dea598-9047-4567-a934-84c2797c0978
+  network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: saveyoudear.ecoping2.org
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: f1071c148a5aefc4
+  servername: ozon.ru
 - type: vless
   name: '[Free] 🇺🇸_US_美国_15'
-  server: 104.21.227.134
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_16'
   server: plcdn14.suio.me
   port: 443
   uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
@@ -306,86 +341,20 @@ proxies:
   flow: ''
   servername: plcdn14.suio.me
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_17'
-  server: 8.6.112.0
-  port: 8443
-  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
-  network: ws
+  name: '[Free] 🇺🇸_US_美国_16'
+  server: 64.188.91.193
+  port: 2053
+  uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
+  network: grpc
   tls: true
   encryption: none
   flow: ''
-  servername: streamchat.ikoochi.ir.
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_1'
-  server: 109.172.84.163
-  port: 8443
-  uuid: 35520d38-0cc1-4612-94fd-fb6e347849de
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
   reality-opts:
-    public-key: 2566-27FWlgHXfhcbxCIZ2RTD_rqHzLhWfcvNuNpuGc
-    short-id: baa01fe9c8c418fc
-  servername: sun6-21.userapi.com
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_18'
-  server: plcdn20.suio.me
-  port: 443
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: plcdn20.suio.me
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_19'
-  server: 8.6.112.0
-  port: 2053
-  uuid: 48792731-6fc9-4415-8b51-6007825daf82
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ir7.hnbyme.online
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_20'
-  server: 162.159.152.4
-  port: 2053
-  uuid: a5f130ee-c537-48fe-aaf2-d7c1c17d0b96
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sinesukhte.ecoping1.net
+    public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
+    short-id: null
+  servername: eh.vk.com
 - type: vless
   name: '[Free] 🇷🇺_RU_俄罗斯_2'
-  server: 88.210.34.15
-  port: 8443
-  uuid: 35520d38-0cc1-4612-94fd-fb6e347849de
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 2566-27FWlgHXfhcbxCIZ2RTD_rqHzLhWfcvNuNpuGc
-    short-id: baa01fe9c8c418fc
-  servername: sun6-21.userapi.com
-- type: vless
-  name: '[Free] 🇮🇶_IQ_伊拉克'
-  server: 178.17.53.28
-  port: 47539
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_3'
   server: 178.20.42.9
   port: 8443
   uuid: 35520d38-0cc1-4612-94fd-fb6e347849de
@@ -398,18 +367,31 @@ proxies:
     short-id: baa01fe9c8c418fc
   servername: sun6-21.userapi.com
 - type: vless
-  name: '[Free] 🇷🇴_RO_罗马尼亚'
-  server: 185.221.222.206
-  port: 56824
-  uuid: af1a9622-5deb-480c-8539-d8763f59e012
+  name: '[Free] 🇷🇺_RU_俄罗斯_3'
+  server: 217.12.40.76
+  port: 443
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
-    short-id: aabbccdd
-  servername: ya.ru
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 048fe5c8be4bb687
+  servername: sun9-38.userapi.com
+- type: vless
+  name: '[Free] 🇳🇱_NL_荷兰'
+  server: 94.228.213.219
+  port: 443
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  servername: hls-svod.itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -421,11 +403,11 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇺🇸_US_美国_7'
-  - '[Live] 🇺🇸_US_美国_8'
   - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇺🇸_US_美国_5'
+  - '[Live] ⚡️Telegram = @SOSkeyNET'
+  - '[Live] 🇺🇸_US_美国_6'
+  - '[Free] 🇦🇺_AU_澳大利亚'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
@@ -435,25 +417,22 @@ proxy-groups:
   - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国_8'
-  - '[Free] 🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国_9'
   - '[Free] 🇺🇸_US_美国_10'
   - '[Free] 🇺🇸_US_美国_11'
-  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] ⚡️Telegram = @SOSkeyNET'
   - '[Free] 🇺🇸_US_美国_12'
+  - '[Free] 🇮🇹_IT_意大利'
   - '[Free] 🇺🇸_US_美国_13'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇺🇸_US_美国_14'
   - '[Free] 🇺🇸_US_美国_15'
   - '[Free] 🇺🇸_US_美国_16'
-  - '[Free] 🇺🇸_US_美国_17'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇺🇸_US_美国_18'
-  - '[Free] 🇺🇸_US_美国_19'
-  - '[Free] 🇺🇸_US_美国_20'
   - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇮🇶_IQ_伊拉克'
   - '[Free] 🇷🇺_RU_俄罗斯_3'
-  - '[Free] 🇷🇴_RO_罗马尼亚'
+  - '[Free] 🇳🇱_NL_荷兰'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
@@ -462,11 +441,11 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇺🇸_US_美国_7'
-  - '[Live] 🇺🇸_US_美国_8'
   - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇺🇸_US_美国_5'
+  - '[Live] ⚡️Telegram = @SOSkeyNET'
+  - '[Live] 🇺🇸_US_美国_6'
+  - '[Free] 🇦🇺_AU_澳大利亚'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
@@ -476,25 +455,22 @@ proxy-groups:
   - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国_8'
-  - '[Free] 🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国_9'
   - '[Free] 🇺🇸_US_美国_10'
   - '[Free] 🇺🇸_US_美国_11'
-  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] ⚡️Telegram = @SOSkeyNET'
   - '[Free] 🇺🇸_US_美国_12'
+  - '[Free] 🇮🇹_IT_意大利'
   - '[Free] 🇺🇸_US_美国_13'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇺🇸_US_美国_14'
   - '[Free] 🇺🇸_US_美国_15'
   - '[Free] 🇺🇸_US_美国_16'
-  - '[Free] 🇺🇸_US_美国_17'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇺🇸_US_美国_18'
-  - '[Free] 🇺🇸_US_美国_19'
-  - '[Free] 🇺🇸_US_美国_20'
   - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇮🇶_IQ_伊拉克'
   - '[Free] 🇷🇺_RU_俄罗斯_3'
-  - '[Free] 🇷🇴_RO_罗马尼亚'
+  - '[Free] 🇳🇱_NL_荷兰'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
