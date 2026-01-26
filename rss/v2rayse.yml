@@ -18,7 +18,7 @@ dns:
 proxies:
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: 104.17.25.173
+  server: 162.159.16.63
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -28,7 +28,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: 104.18.185.26
+  server: vip3.kaixincloud.top
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -38,7 +38,7 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: 104.21.224.5
+  server: 104.17.25.173
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -48,6 +48,26 @@ proxies:
   servername: l.ayovo.netlib.re
 - type: vless
   name: '[Live] 🇺🇸_US_美国_3'
+  server: 104.21.227.134
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Live] 🇺🇦_UA_乌克兰'
+  server: iran.zone-server-irani.ir
+  port: 443
+  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: apexbhao1.qzz.io
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_4'
   server: 162.159.152.4
   port: 443
   uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
@@ -57,80 +77,35 @@ proxies:
   flow: ''
   servername: pages.dev
 - type: vless
-  name: '[Live] 🇮🇷_IR_伊朗'
-  server: s2.gmax12.ir
-  port: 4450
-  uuid: 76aa0ce6-04df-4b40-9642-a9bdb3efc38d
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: null
-  servername: excoino.com
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 78.141.197.131
-  port: 8443
-  uuid: 34050a14-f55f-4878-981f-886ab0a52b56
-  network: tcp
+  name: '[Live] 🇺🇸_US_美国_5'
+  server: 104.16.147.32
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: 4WqRiCOcMKx7ffnW2tQ_il4gSwuR58ReAjnwR5CfBX4
-    short-id: b873709a
-  servername: www.refersion.com
+  servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇩🇰_DK_丹麦'
-  server: dfg.octopusss.net
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  network: grpc
+  name: '[Live] 🇺🇸_US_美国_6'
+  server: 104.21.224.5
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  servername: one-piece.com
+  servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇳🇱_NL_荷兰'
-  server: 45.139.26.152
-  port: 7443
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: fd88bd27db4cc661
-  servername: eh.vk.com
-- type: vless
-  name: '[Live] 🇳🇱_NL_荷兰_1'
-  server: u1.mizulina.top
-  port: 22231
-  uuid: 2ad04efa-d18a-442b-875f-48d12e11d822
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: u1.mizulina.top
-- type: vless
-  name: '[Live] 🇧🇬_BG_保加利亚'
-  server: 87.120.165.175
-  port: 8443
-  uuid: cc235335-34f0-4f1b-b3e3-5f32e2eeaa89
-  network: tcp
+  name: '[Live] 🇺🇸_US_美国_7'
+  server: xhero.kharabetam.de
+  port: 2053
+  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: llSF90j8PQdR0alqH2OGlh7fEtoxO-xfZW_B4bQ4eSw
-    short-id: 6ba85179e30d4fc2
-  servername: monolithgate.xyz
+  servername: mrx.xher0.de
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 104.17.25.173
@@ -439,12 +414,11 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇩🇰_DK_丹麦'
-  - '[Live] 🇳🇱_NL_荷兰'
-  - '[Live] 🇳🇱_NL_荷兰_1'
-  - '[Live] 🇧🇬_BG_保加利亚'
+  - '[Live] 🇺🇦_UA_乌克兰'
+  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇺🇸_US_美国_5'
+  - '[Live] 🇺🇸_US_美国_6'
+  - '[Live] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
@@ -478,12 +452,11 @@ proxy-groups:
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇩🇰_DK_丹麦'
-  - '[Live] 🇳🇱_NL_荷兰'
-  - '[Live] 🇳🇱_NL_荷兰_1'
-  - '[Live] 🇧🇬_BG_保加利亚'
+  - '[Live] 🇺🇦_UA_乌克兰'
+  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇺🇸_US_美国_5'
+  - '[Live] 🇺🇸_US_美国_6'
+  - '[Live] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
