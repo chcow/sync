@@ -18,6 +18,35 @@ dns:
 proxies:
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
+  server: 172.64.52.201
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: ss
+  name: '[Live] 🇨🇳_CN_中国'
+  server: mofacpdd.til69.com
+  port: 26921
+  cipher: chacha20-ietf-poly1305
+  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
+- type: vmess
+  name: '[Live] 🇭🇰 香港 | HKG'
+  server: 3550c067-t9mv40-trftb1-1psmw.hkt.gotochinatown.net
+  port: 80
+  uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_1'
   server: 172.64.52.218
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
@@ -27,28 +56,8 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 198.41.223.110
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
   name: '[Live] 🇺🇸_US_美国_2'
-  server: zrf.cf.090227.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇲🇾_MY_马来西亚'
-  server: 8.39.125.179
+  server: 172.64.53.248
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -68,16 +77,6 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国_4'
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_5'
   server: 104.18.33.181
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
@@ -87,8 +86,8 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Live] 🇨🇳_CN_中国'
-  server: 154.218.15.1
+  name: '[Live] 🇺🇸_US_美国_5'
+  server: staticdelivery.nexusmods.com
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -98,46 +97,6 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国_6'
-  server: 104.21.224.5
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_7'
-  server: 162.159.153.13
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国'
-  server: 172.64.52.218
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_1'
-  server: 172.64.53.248
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_2'
   server: 198.41.223.110
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
@@ -147,8 +106,84 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: 172.64.52.201
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: ss
+  name: '[Free] 🇨🇳_CN_中国'
+  server: mofacpdd.til69.com
+  port: 26921
+  cipher: chacha20-ietf-poly1305
+  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: 172.64.144.22
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
+  server: 198.41.223.212
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
   name: '[Free] 🇺🇸_US_美国_3'
+  server: staticdelivery.nexusmods.com
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 198.41.223.110
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_5'
+  server: 104.18.33.181
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_6'
   server: zrf.cf.090227.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_7'
+  server: cloudflare.182682.xyz
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -167,48 +202,8 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_4'
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_5'
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_6'
-  server: 104.18.33.181
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_7'
-  server: 198.62.62.241
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇨🇳_CN_中国'
-  server: 27.50.49.104
+  name: '[Free] 🇺🇸_US_美国_8'
+  server: 162.159.252.202
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -218,7 +213,7 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Free] 🇨🇳_CN_中国_1'
-  server: 154.218.15.1
+  server: 154.218.15.198
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -226,16 +221,6 @@ proxies:
   encryption: none
   flow: ''
   servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_8'
-  server: 104.21.224.5
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
 - type: vless
   name: '[Free] 🇺🇸_US_美国_9'
   server: 162.159.153.13
@@ -247,64 +232,8 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Free] 🇨🇳_CN_中国_2'
-  server: 154.211.8.18
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
   name: '[Free] 🇺🇸_US_美国_10'
-  server: registry.cyou
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_11'
-  server: 104.19.44.107
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯'
-  server: 176.125.240.166
-  port: 443
-  uuid: 002accb526534fcab24a72b0ea1cff59
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
-    short-id: aabbccdd
-  servername: apple.com
-- type: vless
-  name: '[Free] 🇪🇸_ES_西班牙'
-  server: 80.91.65.99
-  port: 1422
-  uuid: 59104543-64b9-48dd-9ba9-d2a0825e8b3b
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: q-AEsvnN41Jb8KjFqGEBuSOYjFWXGGhpP9SuS9sBNXg
-    short-id: 3143dc53998d9689
-  servername: yahoo.com
-- type: vless
-  name: '[Free] 🇧🇷_BR_巴西'
-  server: 188.114.98.0
+  server: 162.159.152.4
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -313,53 +242,36 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_12'
-  server: www.visa.cn
+  name: '[Free] 🇺🇸_US_美国_11'
+  server: 104.21.224.5
   port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: snip.ere.de5.net
+  servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_13'
-  server: icook.hk
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇪🇸_ES_西班牙_1'
-  server: lv.fastdbn.com
-  port: 5001
-  uuid: ec7f2b6a-d627-40ea-a017-36052c4ba426
+  name: '[Free] 🇩🇪_DE_德国'
+  server: octopusss5.info
+  port: 22955
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   network: grpc
   tls: true
   encryption: none
   flow: ''
   reality-opts:
-    public-key: 12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM
-    short-id: null
-  servername: services.3cx.com
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  servername: one-piece.com
+- type: ss
+  name: '[Free] 🇨🇳_CN_中国_2'
+  server: mbqg940.26i6c42.rkzn8ni.vm331.cn
+  port: 10237
+  cipher: chacha20-ietf-poly1305
+  password: f1e442f1-8abb-4df6-9c6e-ddd114224b3a
 - type: vless
-  name: '[Free] 🇮🇶_IQ_伊拉克'
-  server: 178.17.53.28
-  port: 47539
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_14'
+  name: '[Free] 🇺🇸_US_美国_12'
   server: 162.159.153.160
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
@@ -369,8 +281,51 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
+  name: '[Free] 🇺🇸_US_美国_13'
+  server: 104.18.185.26
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇩🇰_DK_丹麦'
+  server: 159.195.26.28
+  port: 443
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: null
+  servername: live.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_14'
+  server: vip2.kaixincloud.top
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ca.adobe-connect.top
+- type: vless
   name: '[Free] 🇺🇸_US_美国_15'
-  server: 104.19.118.83
+  server: api1.uploadsho.com
+  port: 443
+  uuid: 91d906df-9e60-4186-945e-4ad1ac331e3a
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nl.uploadsho.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_16'
+  server: icook.tw
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -378,6 +333,16 @@ proxies:
   encryption: none
   flow: ''
   servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_17'
+  server: vip3.kaixincloud.top
+  port: 8443
+  uuid: 96863176-edbb-47dd-9b56-1d4582a6f9c0
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ir.irannet.shop
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -385,78 +350,74 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇭🇰 香港 | HKG'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇲🇾_MY_马来西亚'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇨🇳_CN_中国'
   - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇲🇾_MY_马来西亚'
   - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国_5'
   - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇺🇸_US_美国_7'
-  - '[Free] 🇨🇳_CN_中国'
-  - '[Free] 🇨🇳_CN_中国_1'
+  - '[Free] 🇲🇾_MY_马来西亚'
   - '[Free] 🇺🇸_US_美国_8'
+  - '[Free] 🇨🇳_CN_中国_1'
   - '[Free] 🇺🇸_US_美国_9'
-  - '[Free] 🇨🇳_CN_中国_2'
   - '[Free] 🇺🇸_US_美国_10'
   - '[Free] 🇺🇸_US_美国_11'
-  - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇪🇸_ES_西班牙'
-  - '[Free] 🇧🇷_BR_巴西'
+  - '[Free] 🇩🇪_DE_德国'
+  - '[Free] 🇨🇳_CN_中国_2'
   - '[Free] 🇺🇸_US_美国_12'
   - '[Free] 🇺🇸_US_美国_13'
-  - '[Free] 🇪🇸_ES_西班牙_1'
-  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇩🇰_DK_丹麦'
   - '[Free] 🇺🇸_US_美国_14'
   - '[Free] 🇺🇸_US_美国_15'
+  - '[Free] 🇺🇸_US_美国_16'
+  - '[Free] 🇺🇸_US_美国_17'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇭🇰 香港 | HKG'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇲🇾_MY_马来西亚'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇺🇸_US_美国_4'
   - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇨🇳_CN_中国'
   - '[Live] 🇺🇸_US_美国_6'
-  - '[Live] 🇺🇸_US_美国_7'
   - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇲🇾_MY_马来西亚'
   - '[Free] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国_5'
   - '[Free] 🇺🇸_US_美国_6'
   - '[Free] 🇺🇸_US_美国_7'
-  - '[Free] 🇨🇳_CN_中国'
-  - '[Free] 🇨🇳_CN_中国_1'
+  - '[Free] 🇲🇾_MY_马来西亚'
   - '[Free] 🇺🇸_US_美国_8'
+  - '[Free] 🇨🇳_CN_中国_1'
   - '[Free] 🇺🇸_US_美国_9'
-  - '[Free] 🇨🇳_CN_中国_2'
   - '[Free] 🇺🇸_US_美国_10'
   - '[Free] 🇺🇸_US_美国_11'
-  - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇪🇸_ES_西班牙'
-  - '[Free] 🇧🇷_BR_巴西'
+  - '[Free] 🇩🇪_DE_德国'
+  - '[Free] 🇨🇳_CN_中国_2'
   - '[Free] 🇺🇸_US_美国_12'
   - '[Free] 🇺🇸_US_美国_13'
-  - '[Free] 🇪🇸_ES_西班牙_1'
-  - '[Free] 🇮🇶_IQ_伊拉克'
+  - '[Free] 🇩🇰_DK_丹麦'
   - '[Free] 🇺🇸_US_美国_14'
   - '[Free] 🇺🇸_US_美国_15'
+  - '[Free] 🇺🇸_US_美国_16'
+  - '[Free] 🇺🇸_US_美国_17'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
