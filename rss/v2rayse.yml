@@ -26,16 +26,6 @@ proxies:
   encryption: none
   flow: ''
   servername: rukawa.pages.dev
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 108.162.198.31
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
 - type: ss
   name: '[Live] 🇨🇳_CN_中国'
   server: mofacpdd.til69.com
@@ -43,8 +33,18 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
+  name: '[Live] 🇺🇸_US_美国_1'
   server: 172.64.53.248
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: 108.162.198.38
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -80,7 +80,7 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国_5'
-  server: 172.64.52.218
+  server: 108.162.198.31
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -90,7 +90,7 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Live] 🇲🇾_MY_马来西亚'
-  server: 8.39.125.179
+  server: 8.39.125.167
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -100,14 +100,14 @@ proxies:
   servername: snip.ere.de5.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国_6'
-  server: vip3.kaixincloud.top
-  port: 8443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 172.64.52.218
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: jp-aniu.xmmaa.dpdns.org
+  servername: snip.ere.de5.net
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 172.64.144.74
@@ -407,8 +407,8 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇨🇳_CN_中国_1'
@@ -450,8 +450,8 @@ proxy-groups:
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
   - '[Live] 🇨🇳_CN_中国_1'
