@@ -17,21 +17,61 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇩🇪 德国 | DEU'
-  server: 159.195.26.28
+  name: '[Live] 🇸🇬 新加坡 | SGP_2'
+  server: 198.41.223.212
   port: 443
-  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇰🇷 韩国 | KOR_5'
+  server: 180.230.0.137
+  port: 50001
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Live] 🇺🇸 美国 | USA_9'
+  server: 104.17.143.88
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] ✅سرورها_1'
+  server: ip.ali.lat
+  port: 443
+  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: temp2.ali.lat
+- type: vless
+  name: '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
+  server: 138.124.79.4
+  port: 443
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: null
-  servername: live.com
+  servername: sun6-21.userapi.com
 - type: vless
-  name: '[Live] 🇳🇱 荷兰 | NLD_1'
-  server: icook.tw
+  name: '[Live] 🇺🇸 美国 | USA_54'
+  server: 27.50.48.13
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -40,61 +80,18 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Live] 🇯🇵 日本 | JPN_2'
-  server: staticdelivery.nexusmods.com
+  name: '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
+  server: 45.144.52.229
   port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] KV 8 (@Outline_Vpn) free'
-  server: 162.159.44.142
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
-  server: 185.18.250.245
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Live] 🇯🇵 日本 | JPN_6'
-  server: 108.162.198.31
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  server: 78.153.139.68
-  port: 8443
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
   network: tcp
   tls: true
   encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
-  servername: images.apple.com
+  flow: ''
+  servername: ficdn2.suio.me
 - type: vless
-  name: '[Live] 🇺🇸 美国 | USA_45'
-  server: 198.41.208.70
+  name: '[Live] 🇸🇬 新加坡 | SGP_6'
+  server: 198.41.223.110
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -103,38 +100,8 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Live] 🇯🇵 日本 | JPN_1'
-  server: 172.64.53.248
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇯🇵 日本 | JPN_7'
+  name: '[Live] 🇯🇵 日本 | JPN_7'
   server: 162.159.45.68
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_5'
-  server: blog.811520.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_15'
-  server: 27.50.49.104
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -153,177 +120,8 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇺🇸 美国 | USA_23'
-  server: 162.159.153.160
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇯🇵 日本 | JPN'
-  server: 172.64.52.218
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_45'
-  server: 198.41.208.70
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_17'
-  server: 104.19.44.107
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇯🇵 日本 | JPN_8'
-  server: 162.159.38.208
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_9'
-  server: 162.159.153.13
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇯🇵 日本 | JPN_1'
-  server: 162.159.44.228
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_14'
-  server: www.visa.cn
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇩🇪[openproxylist.com]'
-  server: vpconnect1.pishipishi.pro
-  port: 80
-  uuid: vpn_connects
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_15'
-  server: 8.35.211.15
-  port: 2087
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: l.ayovo.netlib.re
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_19'
-  server: 154.218.15.1
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_16'
-  server: 172.64.144.74
-  port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: rukawa.pages.dev
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_2'
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_17'
-  server: 173.245.59.209
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_21'
-  server: 8.39.125.167
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_11'
-  server: 8.39.125.179
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Free] 🇳🇱 荷兰 | NLD_3'
-  server: api1.uploadsho.com
-  port: 443
-  uuid: 91d906df-9e60-4186-945e-4ad1ac331e3a
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: nl.uploadsho.com
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_16_1'
-  server: registry.cyou
+  name: '[Free] 🇯🇵 日本 | JPN_7'
+  server: 162.159.45.68
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -342,8 +140,21 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_19'
-  server: 162.159.16.63
+  name: '[Free] 🇰🇿[By EbraSha] vless-KZ 🔒'
+  server: 194.110.55.21
+  port: 443
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  servername: hls-svod.itunes.apple.com
+- type: vless
+  name: '[Free] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
+  server: 185.18.250.245
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -352,8 +163,8 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] 🇯🇵 日本 | JPN_2'
-  server: 108.162.198.38
+  name: '[Free] 🇺🇸 美国 | USA_1'
+  server: 154.218.15.198
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -362,8 +173,51 @@ proxies:
   flow: ''
   servername: snip.ere.de5.net
 - type: vless
-  name: '[Free] 🇸🇬 新加坡 | SGP_15_1'
-  server: zrf.cf.090227.xyz
+  name: '[Free] 🇯🇵 日本 | JPN_6'
+  server: 108.162.198.31
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] REALITY|RU🇷🇺'
+  server: 176.125.240.166
+  port: 443
+  uuid: 002accb526534fcab24a72b0ea1cff59
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+    short-id: aabbccdd
+  servername: apple.com
+- type: vless
+  name: '[Free] RELAY🚩_25'
+  server: 192.0.54.158
+  port: 443
+  uuid: d3caab65-43ff-4cb3-9d56-647edac64bde
+  network: ws
+  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.DYCBs8-gxBjc8Ebjfs13zEQE35-Mh2inZvKBaZfztE8
+  flow: ''
+  servername: secret.domainhamrah80.ir
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_15'
+  server: 27.50.49.104
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_2'
+  server: 198.41.223.212
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   network: ws
@@ -382,8 +236,170 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Free] KV 8 (@Outline_Vpn) free'
-  server: 162.159.44.142
+  name: '[Free] 🇸🇬 新加坡 | SGP_17'
+  server: 173.245.59.209
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_15'
+  server: zrf.cf.090227.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_9'
+  server: 162.159.153.13
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇯🇵 日本 | JPN'
+  server: 162.159.44.228
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_7'
+  server: 104.18.33.181
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_2_1'
+  server: bestcf.030101.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_29'
+  server: 141.101.114.227
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇮🇱[By EbraSha] vless-IL 🔒'
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  servername: i2pd.website
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_47'
+  server: 104.19.41.41
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇳🇱 荷兰 | NLD_1'
+  server: icook.tw
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_15_1'
+  server: 8.35.211.15
+  port: 2087
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇸🇬 新加坡 | SGP_4'
+  server: 162.159.44.5
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_5'
+  server: pypi.org
+  port: 80
+  uuid: 60b06b38-77cc-470a-a3f4-2bcffce72e31
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_31'
+  server: 104.21.224.5
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: l.ayovo.netlib.re
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_55'
+  server: 104.16.250.85
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_14'
+  server: www.visa.cn
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Free] 🇺🇸 美国 | USA_27'
+  server: 104.21.227.134
   port: 443
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   network: ws
@@ -397,83 +413,85 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇩🇪 德国 | DEU'
-  - '[Live] 🇳🇱 荷兰 | NLD_1'
-  - '[Live] 🇯🇵 日本 | JPN_2'
-  - '[Live] KV 8 (@Outline_Vpn) free'
-  - '[Live] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
-  - '[Live] 🇯🇵 日本 | JPN_6'
-  - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Live] 🇺🇸 美国 | USA_45'
-  - '[Live] 🇯🇵 日本 | JPN_1'
-  - '[Free] 🇯🇵 日本 | JPN_7'
-  - '[Free] 🇸🇬 新加坡 | SGP_5'
-  - '[Free] 🇺🇸 美国 | USA_15'
+  - '[Live] 🇸🇬 新加坡 | SGP_2'
+  - '[Live] 🇰🇷 韩国 | KOR_5'
+  - '[Live] 🇺🇸 美国 | USA_9'
+  - '[Live] ✅سرورها_1'
+  - '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
+  - '[Live] 🇺🇸 美国 | USA_54'
+  - '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
+  - '[Live] 🇸🇬 新加坡 | SGP_6'
+  - '[Live] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇺🇸 美国 | USA_16'
-  - '[Free] 🇺🇸 美国 | USA_23'
-  - '[Free] 🇯🇵 日本 | JPN'
-  - '[Free] 🇺🇸 美国 | USA_45'
-  - '[Free] 🇺🇸 美国 | USA_17'
-  - '[Free] 🇯🇵 日本 | JPN_8'
-  - '[Free] 🇺🇸 美国 | USA_9'
-  - '[Free] 🇯🇵 日本 | JPN_1'
-  - '[Free] 🇺🇸 美国 | USA_14'
-  - '[Free] 🇩🇪[openproxylist.com]'
-  - '[Free] 🇸🇬 新加坡 | SGP_15'
-  - '[Free] 🇺🇸 美国 | USA_19'
-  - '[Free] 🇸🇬 新加坡 | SGP_16'
-  - '[Free] 🇺🇸 美国 | USA_2'
-  - '[Free] 🇸🇬 新加坡 | SGP_17'
-  - '[Free] 🇸🇬 新加坡 | SGP_21'
-  - '[Free] 🇸🇬 新加坡 | SGP_11'
-  - '[Free] 🇳🇱 荷兰 | NLD_3'
-  - '[Free] 🇺🇸 美国 | USA_16_1'
+  - '[Free] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇸🇬 新加坡 | SGP_6'
-  - '[Free] 🇸🇬 新加坡 | SGP_19'
-  - '[Free] 🇯🇵 日本 | JPN_2'
-  - '[Free] 🇸🇬 新加坡 | SGP_15_1'
+  - '[Free] 🇰🇿[By EbraSha] vless-KZ 🔒'
+  - '[Free] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
+  - '[Free] 🇺🇸 美国 | USA_1'
+  - '[Free] 🇯🇵 日本 | JPN_6'
+  - '[Free] REALITY|RU🇷🇺'
+  - '[Free] RELAY🚩_25'
+  - '[Free] 🇺🇸 美国 | USA_15'
+  - '[Free] 🇸🇬 新加坡 | SGP_2'
   - '[Free] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.3MB/s'
-  - '[Free] KV 8 (@Outline_Vpn) free'
+  - '[Free] 🇸🇬 新加坡 | SGP_17'
+  - '[Free] 🇸🇬 新加坡 | SGP_15'
+  - '[Free] 🇺🇸 美国 | USA_9'
+  - '[Free] 🇯🇵 日本 | JPN'
+  - '[Free] 🇸🇬 新加坡 | SGP_7'
+  - '[Free] 🇸🇬 新加坡 | SGP_2_1'
+  - '[Free] 🇺🇸 美国 | USA_29'
+  - '[Free] 🇮🇱[By EbraSha] vless-IL 🔒'
+  - '[Free] 🇺🇸 美国 | USA_47'
+  - '[Free] 🇳🇱 荷兰 | NLD_1'
+  - '[Free] 🇸🇬 新加坡 | SGP_15_1'
+  - '[Free] 🇸🇬 新加坡 | SGP_4'
+  - '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_5'
+  - '[Free] 🇺🇸 美国 | USA_31'
+  - '[Free] 🇺🇸 美国 | USA_55'
+  - '[Free] 🇺🇸 美国 | USA_14'
+  - '[Free] 🇺🇸 美国 | USA_27'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇩🇪 德国 | DEU'
-  - '[Live] 🇳🇱 荷兰 | NLD_1'
-  - '[Live] 🇯🇵 日本 | JPN_2'
-  - '[Live] KV 8 (@Outline_Vpn) free'
-  - '[Live] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
-  - '[Live] 🇯🇵 日本 | JPN_6'
-  - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Live] 🇺🇸 美国 | USA_45'
-  - '[Live] 🇯🇵 日本 | JPN_1'
-  - '[Free] 🇯🇵 日本 | JPN_7'
-  - '[Free] 🇸🇬 新加坡 | SGP_5'
-  - '[Free] 🇺🇸 美国 | USA_15'
+  - '[Live] 🇸🇬 新加坡 | SGP_2'
+  - '[Live] 🇰🇷 韩国 | KOR_5'
+  - '[Live] 🇺🇸 美国 | USA_9'
+  - '[Live] ✅سرورها_1'
+  - '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
+  - '[Live] 🇺🇸 美国 | USA_54'
+  - '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
+  - '[Live] 🇸🇬 新加坡 | SGP_6'
+  - '[Live] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇺🇸 美国 | USA_16'
-  - '[Free] 🇺🇸 美国 | USA_23'
-  - '[Free] 🇯🇵 日本 | JPN'
-  - '[Free] 🇺🇸 美国 | USA_45'
-  - '[Free] 🇺🇸 美国 | USA_17'
-  - '[Free] 🇯🇵 日本 | JPN_8'
-  - '[Free] 🇺🇸 美国 | USA_9'
-  - '[Free] 🇯🇵 日本 | JPN_1'
-  - '[Free] 🇺🇸 美国 | USA_14'
-  - '[Free] 🇩🇪[openproxylist.com]'
-  - '[Free] 🇸🇬 新加坡 | SGP_15'
-  - '[Free] 🇺🇸 美国 | USA_19'
-  - '[Free] 🇸🇬 新加坡 | SGP_16'
-  - '[Free] 🇺🇸 美国 | USA_2'
-  - '[Free] 🇸🇬 新加坡 | SGP_17'
-  - '[Free] 🇸🇬 新加坡 | SGP_21'
-  - '[Free] 🇸🇬 新加坡 | SGP_11'
-  - '[Free] 🇳🇱 荷兰 | NLD_3'
-  - '[Free] 🇺🇸 美国 | USA_16_1'
+  - '[Free] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇸🇬 新加坡 | SGP_6'
-  - '[Free] 🇸🇬 新加坡 | SGP_19'
-  - '[Free] 🇯🇵 日本 | JPN_2'
-  - '[Free] 🇸🇬 新加坡 | SGP_15_1'
+  - '[Free] 🇰🇿[By EbraSha] vless-KZ 🔒'
+  - '[Free] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
+  - '[Free] 🇺🇸 美国 | USA_1'
+  - '[Free] 🇯🇵 日本 | JPN_6'
+  - '[Free] REALITY|RU🇷🇺'
+  - '[Free] RELAY🚩_25'
+  - '[Free] 🇺🇸 美国 | USA_15'
+  - '[Free] 🇸🇬 新加坡 | SGP_2'
   - '[Free] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.3MB/s'
-  - '[Free] KV 8 (@Outline_Vpn) free'
+  - '[Free] 🇸🇬 新加坡 | SGP_17'
+  - '[Free] 🇸🇬 新加坡 | SGP_15'
+  - '[Free] 🇺🇸 美国 | USA_9'
+  - '[Free] 🇯🇵 日本 | JPN'
+  - '[Free] 🇸🇬 新加坡 | SGP_7'
+  - '[Free] 🇸🇬 新加坡 | SGP_2_1'
+  - '[Free] 🇺🇸 美国 | USA_29'
+  - '[Free] 🇮🇱[By EbraSha] vless-IL 🔒'
+  - '[Free] 🇺🇸 美国 | USA_47'
+  - '[Free] 🇳🇱 荷兰 | NLD_1'
+  - '[Free] 🇸🇬 新加坡 | SGP_15_1'
+  - '[Free] 🇸🇬 新加坡 | SGP_4'
+  - '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_5'
+  - '[Free] 🇺🇸 美国 | USA_31'
+  - '[Free] 🇺🇸 美国 | USA_55'
+  - '[Free] 🇺🇸 美国 | USA_14'
+  - '[Free] 🇺🇸 美国 | USA_27'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
