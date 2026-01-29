@@ -17,68 +17,38 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇺🇸 美国 | USA_54'
-  server: 27.50.48.13
+  name: '[Live] 🇩🇪 德国 | DEU'
+  server: 159.195.26.28
   port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇺🇸 美国 | USA_55'
-  server: 104.16.250.85
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇯🇵 日本 | JPN_4'
-  server: 162.159.44.27
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇯🇵 日本 | JPN_1'
-  server: 172.64.53.248
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇸🇬 新加坡 | SGP_6'
-  server: 198.41.223.110
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇮🇱[By EbraSha] vless-IL 🔒'
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-    short-id: 55e6af1a35e64a98
-  servername: i2pd.website
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: null
+  servername: live.com
+- type: vless
+  name: '[Live] 🇳🇱 荷兰 | NLD_1'
+  server: icook.tw
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇯🇵 日本 | JPN_2'
+  server: staticdelivery.nexusmods.com
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
 - type: vless
   name: '[Live] KV 8 (@Outline_Vpn) free'
   server: 162.159.44.142
@@ -100,18 +70,48 @@ proxies:
   flow: ''
   servername: l.ayovo.netlib.re
 - type: vless
-  name: '[Live] 🇺🇸 美国 | USA_8'
-  server: 136.175.178.165
+  name: '[Live] 🇯🇵 日本 | JPN_6'
+  server: 108.162.198.31
   port: 443
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
-  network: tcp
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
   tls: true
   encryption: none
   flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
+  server: 78.153.139.68
+  port: 8443
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  servername: navi.bankrate.com
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  servername: images.apple.com
+- type: vless
+  name: '[Live] 🇺🇸 美国 | USA_45'
+  server: 198.41.208.70
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇯🇵 日本 | JPN_1'
+  server: 172.64.53.248
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
 - type: vless
   name: '[Free] 🇯🇵 日本 | JPN_7'
   server: 162.159.45.68
@@ -397,15 +397,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸 美国 | USA_54'
-  - '[Live] 🇺🇸 美国 | USA_55'
-  - '[Live] 🇯🇵 日本 | JPN_4'
-  - '[Live] 🇯🇵 日本 | JPN_1'
-  - '[Live] 🇸🇬 新加坡 | SGP_6'
-  - '[Live] 🇮🇱[By EbraSha] vless-IL 🔒'
+  - '[Live] 🇩🇪 德国 | DEU'
+  - '[Live] 🇳🇱 荷兰 | NLD_1'
+  - '[Live] 🇯🇵 日本 | JPN_2'
   - '[Live] KV 8 (@Outline_Vpn) free'
   - '[Live] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
-  - '[Live] 🇺🇸 美国 | USA_8'
+  - '[Live] 🇯🇵 日本 | JPN_6'
+  - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
+  - '[Live] 🇺🇸 美国 | USA_45'
+  - '[Live] 🇯🇵 日本 | JPN_1'
   - '[Free] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇸🇬 新加坡 | SGP_5'
   - '[Free] 🇺🇸 美国 | USA_15'
@@ -437,15 +437,15 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸 美国 | USA_54'
-  - '[Live] 🇺🇸 美国 | USA_55'
-  - '[Live] 🇯🇵 日本 | JPN_4'
-  - '[Live] 🇯🇵 日本 | JPN_1'
-  - '[Live] 🇸🇬 新加坡 | SGP_6'
-  - '[Live] 🇮🇱[By EbraSha] vless-IL 🔒'
+  - '[Live] 🇩🇪 德国 | DEU'
+  - '[Live] 🇳🇱 荷兰 | NLD_1'
+  - '[Live] 🇯🇵 日本 | JPN_2'
   - '[Live] KV 8 (@Outline_Vpn) free'
   - '[Live] 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.6MB/s_2'
-  - '[Live] 🇺🇸 美国 | USA_8'
+  - '[Live] 🇯🇵 日本 | JPN_6'
+  - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
+  - '[Live] 🇺🇸 美国 | USA_45'
+  - '[Live] 🇯🇵 日本 | JPN_1'
   - '[Free] 🇯🇵 日本 | JPN_7'
   - '[Free] 🇸🇬 新加坡 | SGP_5'
   - '[Free] 🇺🇸 美国 | USA_15'
