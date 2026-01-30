@@ -16,33 +16,10 @@ dns:
   - 114.114.114.114
   - 8.8.8.8
 proxies:
-- type: vless
-  name: '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  server: 138.124.79.4
-  port: 443
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: null
-  servername: sun6-21.userapi.com
-- type: vless
-  name: '[Live] 🇺🇸 美国 | USA_16'
-  server: registry.cyou
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
 - type: vmess
-  name: '[Live] 🇭🇰HK-203.198.28.145-4994'
+  name: '[Live] 🇭🇰HK-203.198.28.145-1002'
   server: aflzzul.meiquankongjian.com
-  port: 52512
+  port: 52513
   uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
   alterId: 0
   cipher: auto
@@ -53,49 +30,6 @@ proxies:
     headers:
       Host: aflzzul.meiquankongjian.com
 - type: vless
-  name: '[Live] 🇩🇪[By EbraSha] vless-DE 🔒_18'
-  server: 7.zaravds.cfd
-  port: 22500
-  uuid: dffca47b-ad95-420e-845b-6b199fdf5c16
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: kbMQl4k3RhWszX6EkZVPRWtbUiRZDGePfTDeNkKCBiY
-    short-id: f3e0c9
-  servername: refersion.com
-- type: vless
-  name: '[Live] 🇳🇱 荷兰 | NLD_6'
-  server: 104.26.14.176
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
-  name: '[Live] 🇳🇱[By EbraSha] vless-NL 🔒_3'
-  server: 192.200.160.9
-  port: 2083
-  uuid: 517c776e-afbf-4749-9643-73c3ea26b905
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: xiz20.wizard2shop.org
-- type: vless
-  name: '[Live] 🇺🇸 美国 | USA_36'
-  server: 104.19.41.232
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snip.ere.de5.net
-- type: vless
   name: '[Live] 🇸🇬 新加坡 | SGP_6'
   server: 198.41.223.110
   port: 443
@@ -105,12 +39,79 @@ proxies:
   encryption: none
   flow: ''
   servername: snip.ere.de5.net
-- type: ss
-  name: '[Live] 🇮🇱 以色列 | ISR_1'
-  server: 163.171.213.46
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: d121385f700a6915
+- type: vless
+  name: '[Live] 🇰🇿 Kazakhstan 13'
+  server: kazakhstan13.yourbot.biz
+  port: 443
+  uuid: fdb239e1-d6b1-4b04-84c8-52a124ca0bf7
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3jjLvTnB7NtUoXI9hSuhM2Aru5kuGN2yal1I5uDoenY
+    short-id: '5231'
+  servername: kazakhstan13.yourbot.biz
+- type: vless
+  name: '[Live] 🇺🇸 美国 | USA_45'
+  server: 198.41.208.70
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] ⚡ b2n.ir/v2ray-configs | 81'
+  server: nodejs.org
+  port: 80
+  uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Live] 🇳🇱[By EbraSha] vless-NL 🔒'
+  server: 151.101.3.19
+  port: 80
+  uuid: 0b516cf6-cd76-470c-954d-9374d734f445
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vmess
+  name: '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vless
+  name: '[Live] 🇺🇸 美国 | USA_45_1'
+  server: 104.19.34.114
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: snip.ere.de5.net
+- type: vless
+  name: '[Live] 🇹🇼 🇨🇳 台湾 | TWN_7'
+  server: hinet2.gzcloud.shop
+  port: 20519
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: 4b070735
+  servername: buylite.music.apple.com
 - type: vless
   name: '[Free] 🇳🇱 荷兰 | NLD_6'
   server: 104.26.14.176
@@ -415,15 +416,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  - '[Live] 🇺🇸 美国 | USA_16'
-  - '[Live] 🇭🇰HK-203.198.28.145-4994'
-  - '[Live] 🇩🇪[By EbraSha] vless-DE 🔒_18'
-  - '[Live] 🇳🇱 荷兰 | NLD_6'
-  - '[Live] 🇳🇱[By EbraSha] vless-NL 🔒_3'
-  - '[Live] 🇺🇸 美国 | USA_36'
+  - '[Live] 🇭🇰HK-203.198.28.145-1002'
   - '[Live] 🇸🇬 新加坡 | SGP_6'
-  - '[Live] 🇮🇱 以色列 | ISR_1'
+  - '[Live] 🇰🇿 Kazakhstan 13'
+  - '[Live] 🇺🇸 美国 | USA_45'
+  - '[Live] ⚡ b2n.ir/v2ray-configs | 81'
+  - '[Live] 🇳🇱[By EbraSha] vless-NL 🔒'
+  - '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
+  - '[Live] 🇺🇸 美国 | USA_45_1'
+  - '[Live] 🇹🇼 🇨🇳 台湾 | TWN_7'
   - '[Free] 🇳🇱 荷兰 | NLD_6'
   - '[Free] 🇸🇬 新加坡 | SGP_15'
   - '[Free] REALITY|RU🇷🇺'
@@ -455,15 +456,15 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  - '[Live] 🇺🇸 美国 | USA_16'
-  - '[Live] 🇭🇰HK-203.198.28.145-4994'
-  - '[Live] 🇩🇪[By EbraSha] vless-DE 🔒_18'
-  - '[Live] 🇳🇱 荷兰 | NLD_6'
-  - '[Live] 🇳🇱[By EbraSha] vless-NL 🔒_3'
-  - '[Live] 🇺🇸 美国 | USA_36'
+  - '[Live] 🇭🇰HK-203.198.28.145-1002'
   - '[Live] 🇸🇬 新加坡 | SGP_6'
-  - '[Live] 🇮🇱 以色列 | ISR_1'
+  - '[Live] 🇰🇿 Kazakhstan 13'
+  - '[Live] 🇺🇸 美国 | USA_45'
+  - '[Live] ⚡ b2n.ir/v2ray-configs | 81'
+  - '[Live] 🇳🇱[By EbraSha] vless-NL 🔒'
+  - '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
+  - '[Live] 🇺🇸 美国 | USA_45_1'
+  - '[Live] 🇹🇼 🇨🇳 台湾 | TWN_7'
   - '[Free] 🇳🇱 荷兰 | NLD_6'
   - '[Free] 🇸🇬 新加坡 | SGP_15'
   - '[Free] REALITY|RU🇷🇺'
