@@ -17,6 +17,15 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
+  name: '[Live] 🇩🇪 德国 | DEU_4'
+  server: 104.18.32.47
+  port: 80
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
   name: '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
   server: 78.153.139.68
   port: 8443
@@ -25,37 +34,42 @@ proxies:
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
   servername: images.apple.com
 - type: vless
-  name: '[Live] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  server: s1.db-link.in
-  port: 443
-  uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3
-  network: ws
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
+  server: fr.prod.n7.homes
+  port: 8443
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
+  network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: s6.oboob.cn
-- type: ss
-  name: '[Live] ⚡ b2n.ir/v2ray-configs | 927'
-  server: 141.95.106.215
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: cbbcbfd5330475d1
-- type: vmess
-  name: '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
+  servername: sun6-21.userapi.com
+- type: vless
+  name: '[Live] 🇷🇴_RO_罗马尼亚'
+  server: cl6-alb.privetnet.ru
+  port: 443
+  uuid: fdeecee7-dbed-47f6-bea2-cb0073b5e435
   network: tcp
-  tls: false
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: cl6-alb.privetnet.ru
 - type: vmess
-  name: '[Live] VN1｜机房｜低风险 2'
+  name: '[Live] 🇺🇸_US_美国'
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: v205.19740822.xyz
+- type: vmess
+  name: '[Live] 🇯🇵_JP_日本'
   server: 160.191.245.48
   port: 58623
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
@@ -64,7 +78,77 @@ proxies:
   network: tcp
   tls: false
 - type: vless
-  name: '[Live] @MARAMBASHI 🧡'
+  name: '[Live] 🇨🇳_CN_中国'
+  server: hinet2.gzcloud.shop
+  port: 20519
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: buylite.music.apple.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  server: chatgpt.yoloperps.fun
+  port: 443
+  uuid: 844e0f15-6ea4-4dd7-8f08-11311c9c23e8
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: cloudd.sonamii.com
+- type: vless
+  name: '[Free] 🇫🇷_FR_法国'
+  server: 195.154.190.120
+  port: 443
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: hls-svod.itunes.apple.com
+- type: vless
+  name: '[Free] 🇪🇸_ES_西班牙'
+  server: netherlands96.zentrolamia.xyz
+  port: 443
+  uuid: 9c567b10-876a-47cc-a4de-63c40f098f10
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: netherlands96.zentrolamia.xyz
+- type: vless
+  name: '[Free] 🇲🇩_MD_摩尔多瓦'
+  server: 94.103.1.230
+  port: 443
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: sun6-21.userapi.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: 23.148.20.100
+  port: 30003
+  uuid: 5daf1be0-eee4-4e94-8c5b-8d72ea26eb4a
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: mensura.cdn-apple.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: 104.18.150.234
+  port: 443
+  uuid: 52b203f6-768f-4628-81ef-0230ec5cecac
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: abriabri.abriabri.ir
+- type: vless
+  name: '[Free] @MARAMBASHI 🧡'
   server: 87.239.106.153
   port: 8443
   uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
@@ -72,81 +156,140 @@ proxies:
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 48fccabc158a4c22
   servername: m.vk.ru
 - type: vless
-  name: '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
-  server: 45.144.52.229
+  name: '[Free] 🇺🇦_UA_乌克兰->🇬🇧_GB_英国'
+  server: gaming-nl.aliusvpn.ru
+  port: 8443
+  uuid: 6fe88ad4-483a-4de4-8b17-ed8a39f0fd82
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: aliusfilms.ru
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  server: 89.169.162.214
+  port: 8443
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: yandex.ru
+- type: vless
+  name: '[Free] 🇵🇱_PL_波兰'
+  server: 195.3.223.143
+  port: 443
+  uuid: 74b6eee7-898d-4f32-9987-a035210ec5e2
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: pl.jojack.ru
+- type: vless
+  name: '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时'
+  server: 172.66.128.70
+  port: 80
+  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国'
+  server: 77.239.124.88
+  port: 443
+  uuid: 72d33e6f-2067-4607-8056-fa45e1967b0c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: mskhost.outlinekeys.net
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
+  server: pq-bosniaandherzegovina1.09vpn.com
+  port: 80
+  uuid: 75e1fde7-6bf6-48ef-ba43-400e960e185b
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇩🇰_DK_丹麦->🇩🇪_DE_德国'
+  server: octopusss5.info
+  port: 22955
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  servername: one-piece.com
+- type: vmess
+  name: '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vless
+  name: '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_7'
+  server: ip.ali.lat
+  port: 2087
+  uuid: c8e81aea-2c89-45f8-9a34-ecb2637e2eed
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: temp4.ali.lat
+- type: vless
+  name: '[Free] Telegram+@fnetpro+🇬🇧`'
+  server: usa1.lalash.sbs
+  port: 52554
+  uuid: ad39e228-35a9-4629-a16a-d66a97654225
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yahoo.com
+- type: vmess
+  name: '[Free] HK-219.73.41.163-4682'
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: hkt.gotochinatown.net
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: nlcdn6.suio.me
   port: 443
   uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: ficdn2.suio.me
-- type: vless
-  name: '[Live] ✅سرورها_1'
-  server: ip.ali.lat
-  port: 443
-  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: temp2.ali.lat
+  servername: nlcdn6.suio.me
 - type: vmess
-  name: '[Live] 美国(yudou789.top 玉豆免费节点)_85'
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  name: '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时_1'
+  server: tgju.org
+  port: 8080
+  uuid: nasnet
   alterId: 0
   cipher: auto
-  network: tcp
-  tls: false
-- type: vmess
-  name: '[Free] US62｜原生/疑似家宽｜非常安全'
-  server: tunnel2.qqa678.com
-  port: 47084
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vless
-  name: '[Free] @MARAMBASHI 🧡'
-  server: 212.111.84.187
-  port: 8443
-  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  servername: m.vk.ru
-- type: vless
-  name: '[Free] 🇩🇪 德国 | DEU_2'
-  server: 194.247.187.244
-  port: 443
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: snippet.fgfw.cc.cd
-- type: vless
-  name: '[Free] https://t.me/vaslbemonn'
-  server: 192.200.160.13
-  port: 443
-  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: temp2.ali.lat
+  tls: false
+  ws-opts:
+    path: /nasnet/cdn
+    headers:
+      Host: nasnet-571296497.iranpress.co
 - type: vless
   name: '[Free] 🇫🇷 法国 | FRA_1'
   server: fr.locations-service.com
@@ -156,23 +299,27 @@ proxies:
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-    short-id: null
   servername: refersion.com
 - type: vless
-  name: '[Free] 🇰🇷 韩国 | KOR_4'
-  server: 47.80.12.87
+  name: '[Free] 🇬🇧_GB_英国_1'
+  server: mskhost.outlinekeys.net
   port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 72d33e6f-2067-4607-8056-fa45e1967b0c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: mskhost.outlinekeys.net
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
+  server: fr.prod.n7.homes
+  port: 8443
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: null
-  servername: api.company-target.com
+  servername: sun6-21.userapi.com
 - type: vless
   name: '[Free] 🇫🇮 机场推荐:dafei.de 芬兰 03'
   server: 78.153.139.68
@@ -182,279 +329,102 @@ proxies:
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
   servername: images.apple.com
-- type: vmess
-  name: '[Free] JP17｜原生/疑似家宽｜非常安全'
-  server: tunnel1.qqa678.com
-  port: 47083
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vmess
-  name: '[Free] 🇺🇸 机场推荐:dafei.de 美国 33'
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  tls: false
 - type: vless
-  name: '[Free] 🇳🇱 荷兰 | NLD'
-  server: cdn.bio4cdn.com
-  port: 2053
-  uuid: 2e46ba5a-db56-4940-9500-a61c7b0bcc0c
-  network: ws
+  name: '[Free] 🇸🇬_SG_新加坡'
+  server: ger2.panbehpanel.ir
+  port: 443
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: bio.bio4cdn.com
+  servername: panbehpanel.ir
 - type: vless
-  name: '[Free] Channel id: @ShadowProxy66 🇬🇧'
-  server: nodec.azurka.org
-  port: 443
-  uuid: 0d12578e-50da-41b9-a913-6c1d8c0dd713
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  servername: nodec.azurka.org
-- type: vmess
-  name: '[Free] VN1｜机房｜低风险 2'
-  server: 160.191.245.48
-  port: 58623
-  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: ss
-  name: '[Free] ⚡ b2n.ir/v2ray-configs | 927'
-  server: 141.95.106.215
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: cbbcbfd5330475d1
-- type: vless
-  name: '[Free] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  server: 138.124.79.4
-  port: 443
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  name: '[Free] 🇨🇳_CN_中国'
+  server: hinet2.gzcloud.shop
+  port: 20519
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: null
-  servername: sun6-21.userapi.com
-- type: vless
-  name: '[Free] FQ 5 Tel:@Outline_Vpn'
-  server: 94.141.123.137
-  port: 443
-  uuid: f3f6f19f-c68a-462c-a534-9b388663fffa
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY
-    short-id: f5390f7c74c4ea5c
-  servername: de2.mcqueenconnection.ru
-- type: vless
-  name: '[Free] ⚡ b2n.ir/v2ray-configs | 81'
-  server: nodejs.org
-  port: 80
-  uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Free] @filembad'
-  server: 185.250.41.12
-  port: 8880
-  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Free] ⚡ b2n.ir/v2ray-configs | 959'
-  server: 45.139.26.152
-  port: 7443
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: fd88bd27db4cc661
-  servername: eh.vk.com
-- type: vless
-  name: '[Free] @v2ray_proxy_npv+❄️+@cloudkey_vpn'
-  server: 162.19.10.94
-  port: 443
-  uuid: nasnet
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: nasnet-162191094-direct.sharghdaily.co
-- type: vless
-  name: '[Free] 🇺🇸 美国 | USA_8'
-  server: 136.175.178.165
-  port: 443
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  servername: navi.bankrate.com
-- type: vmess
-  name: '[Free] RELAY🚩 | kk1.gaming-center.ir-2083 | 282.5ms'
-  server: 162.159.152.4
-  port: 2083
-  uuid: 3a9bb1fe-adb3-46f3-b16c-6af5fdde5326
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: kk1.gaming-center.ir
-  servername: kk1.gaming-center.ir
-- type: vless
-  name: '[Free] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  server: s1.db-link.in
-  port: 443
-  uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: s6.oboob.cn
-- type: vmess
-  name: '[Free] 美国(yudou789.top 玉豆免费节点)_85'
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vless
-  name: '[Free] 🇰🇷 韩国 | KOR_6'
-  server: 47.80.11.87
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: null
-  servername: api.company-target.com
-- type: vless
-  name: '[Free] REALITY|IL🇮🇱'
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-    short-id: 55e6af1a35e64a98
-  servername: i2pd.website
+  servername: buylite.music.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - '[Live] 🇩🇪 德国 | DEU_4'
   - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Live] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  - '[Live] ⚡ b2n.ir/v2ray-configs | 927'
-  - '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
-  - '[Live] VN1｜机房｜低风险 2'
-  - '[Live] @MARAMBASHI 🧡'
-  - '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
-  - '[Live] ✅سرورها_1'
-  - '[Live] 美国(yudou789.top 玉豆免费节点)_85'
-  - '[Free] US62｜原生/疑似家宽｜非常安全'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
+  - '[Live] 🇷🇴_RO_罗马尼亚'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇯🇵_JP_日本'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[Free] 🇫🇷_FR_法国'
+  - '[Free] 🇪🇸_ES_西班牙'
+  - '[Free] 🇲🇩_MD_摩尔多瓦'
+  - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇺🇸_US_美国_1'
   - '[Free] @MARAMBASHI 🧡'
-  - '[Free] 🇩🇪 德国 | DEU_2'
-  - '[Free] https://t.me/vaslbemonn'
+  - '[Free] 🇺🇦_UA_乌克兰->🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇩🇰_DK_丹麦->🇩🇪_DE_德国'
+  - '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_7'
+  - '[Free] Telegram+@fnetpro+🇬🇧`'
+  - '[Free] HK-219.73.41.163-4682'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时_1'
   - '[Free] 🇫🇷 法国 | FRA_1'
-  - '[Free] 🇰🇷 韩国 | KOR_4'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
   - '[Free] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Free] JP17｜原生/疑似家宽｜非常安全'
-  - '[Free] 🇺🇸 机场推荐:dafei.de 美国 33'
-  - '[Free] 🇳🇱 荷兰 | NLD'
-  - '[Free] Channel id: @ShadowProxy66 🇬🇧'
-  - '[Free] VN1｜机房｜低风险 2'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 927'
-  - '[Free] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  - '[Free] FQ 5 Tel:@Outline_Vpn'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 81'
-  - '[Free] @filembad'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 959'
-  - '[Free] @v2ray_proxy_npv+❄️+@cloudkey_vpn'
-  - '[Free] 🇺🇸 美国 | USA_8'
-  - '[Free] RELAY🚩 | kk1.gaming-center.ir-2083 | 282.5ms'
-  - '[Free] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  - '[Free] 美国(yudou789.top 玉豆免费节点)_85'
-  - '[Free] 🇰🇷 韩国 | KOR_6'
-  - '[Free] REALITY|IL🇮🇱'
+  - '[Free] 🇸🇬_SG_新加坡'
+  - '[Free] 🇨🇳_CN_中国'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - '[Live] 🇩🇪 德国 | DEU_4'
   - '[Live] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Live] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  - '[Live] ⚡ b2n.ir/v2ray-configs | 927'
-  - '[Live] 🇺🇸 机场推荐:dafei.de 美国 33'
-  - '[Live] VN1｜机房｜低风险 2'
-  - '[Live] @MARAMBASHI 🧡'
-  - '[Live] 🇫🇮[By EbraSha] vless-FI 🔒'
-  - '[Live] ✅سرورها_1'
-  - '[Live] 美国(yudou789.top 玉豆免费节点)_85'
-  - '[Free] US62｜原生/疑似家宽｜非常安全'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
+  - '[Live] 🇷🇴_RO_罗马尼亚'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇯🇵_JP_日本'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[Free] 🇫🇷_FR_法国'
+  - '[Free] 🇪🇸_ES_西班牙'
+  - '[Free] 🇲🇩_MD_摩尔多瓦'
+  - '[Free] 🇺🇸_US_美国'
+  - '[Free] 🇺🇸_US_美国_1'
   - '[Free] @MARAMBASHI 🧡'
-  - '[Free] 🇩🇪 德国 | DEU_2'
-  - '[Free] https://t.me/vaslbemonn'
+  - '[Free] 🇺🇦_UA_乌克兰->🇬🇧_GB_英国'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时'
+  - '[Free] 🇬🇧_GB_英国'
+  - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇩🇰_DK_丹麦->🇩🇪_DE_德国'
+  - '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Free] 🇩🇪[By EbraSha] vless-DE 🔒_7'
+  - '[Free] Telegram+@fnetpro+🇬🇧`'
+  - '[Free] HK-219.73.41.163-4682'
+  - '[Free] 🇷🇺_RU_俄罗斯'
+  - '[Free] 🇺🇸_US_美国->🇧🇪_BE_比利时_1'
   - '[Free] 🇫🇷 法国 | FRA_1'
-  - '[Free] 🇰🇷 韩国 | KOR_4'
+  - '[Free] 🇬🇧_GB_英国_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇭_CH_瑞士'
   - '[Free] 🇫🇮 机场推荐:dafei.de 芬兰 03'
-  - '[Free] JP17｜原生/疑似家宽｜非常安全'
-  - '[Free] 🇺🇸 机场推荐:dafei.de 美国 33'
-  - '[Free] 🇳🇱 荷兰 | NLD'
-  - '[Free] Channel id: @ShadowProxy66 🇬🇧'
-  - '[Free] VN1｜机房｜低风险 2'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 927'
-  - '[Free] 🇫🇷[By EbraSha] vless-FR 🔒_1'
-  - '[Free] FQ 5 Tel:@Outline_Vpn'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 81'
-  - '[Free] @filembad'
-  - '[Free] ⚡ b2n.ir/v2ray-configs | 959'
-  - '[Free] @v2ray_proxy_npv+❄️+@cloudkey_vpn'
-  - '[Free] 🇺🇸 美国 | USA_8'
-  - '[Free] RELAY🚩 | kk1.gaming-center.ir-2083 | 282.5ms'
-  - '[Free] [🇭🇰] [vl-tl-ws] [260129-134339.661]'
-  - '[Free] 美国(yudou789.top 玉豆免费节点)_85'
-  - '[Free] 🇰🇷 韩国 | KOR_6'
-  - '[Free] REALITY|IL🇮🇱'
+  - '[Free] 🇸🇬_SG_新加坡'
+  - '[Free] 🇨🇳_CN_中国'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
