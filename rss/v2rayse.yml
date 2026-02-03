@@ -16,86 +16,8 @@ dns:
   - 114.114.114.114
   - 8.8.8.8
 proxies:
-- type: vless
-  name: '[Live] 🇮🇷_IR_伊朗'
-  server: tr1.kotvpn.net
-  port: 8443
-  uuid: efea752c-8c40-482b-81c9-0c580d3ff365
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vmess
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vless
-  name: '[Live] 🇨🇿_CZ_捷克'
-  server: de-01.anotherboring.top
-  port: 443
-  uuid: 045ae46c-40c0-4191-b5d0-b2811d55c827
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: mail.yandex.ru
-- type: vless
-  name: '[Live] 🇧🇷_BR_巴西->🇮🇷_IR_伊朗'
-  server: 188.114.98.0
-  port: 2053
-  uuid: 42c63fdd-8f5f-42c5-8327-4fc7f80de4c2
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: hz.badomzamini.uk
 - type: vmess
   name: '[Live] 🇨🇳_CN_中国'
-  server: 0cbd7049-t9w4g0-tebnsl-z93q.hkt.gotochinatown.net
-  port: 80
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- type: vmess
-  name: '[Live] 🇨🇳_CN_中国_1'
-  server: dadae6af-t9xz40-tbrhck-1thqb.hkt.gotochinatown.net
-  port: 80
-  uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- type: vmess
-  name: '[Live] 🇨🇳_CN_中国_2'
-  server: 3a43b02c-t9w4g0-tc61cs-1tja8.hkt.gotochinatown.net
-  port: 80
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- type: vmess
-  name: '[Live] 🇨🇳_CN_中国_3'
   server: cfd5692c-t9xz40-th1s9h-8rja.hkt.gotochinatown.net
   port: 80
   uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
@@ -108,25 +30,67 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
 - type: vless
-  name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  server: 8.6.112.0
-  port: 2053
-  uuid: 48792731-6fc9-4415-8b51-6007825daf82
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ir7.hnbyme.online
-- type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: 104.19.50.79
-  port: 8443
-  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  server: 141.101.123.40
+  port: 443
+  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: yxk.longlivecpc.dpdns.org
+  servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  server: 1.kkcweb.ir
+  port: 2083
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: hajames.amirconfigpaanelllll.com
+- type: vless
+  name: '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
+  server: sv11.v2bit.com
+  port: 2087
+  uuid: 200bf63f-7273-4a49-97ee-222cf2832cbb
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sadjkg32jhgjhasd.chgfa.site
+- type: vmess
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 45.207.157.29
+  port: 13852
+  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+  alterId: 0
+  cipher: auto
+  network: none
+  tls: false
+- type: vmess
+  name: '[Live] 🇨🇳_CN_中国_1'
+  server: fd522df8-t9xz40-ta00rd-1o8ak.hkt.gotochinatown.net
+  port: 80
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: i2pd.website
 - type: vmess
   name: '[Free] 🇨🇳_CN_中国'
   server: 73e58f9d-t9ops0-tc9wl2-py5w.hkt.gotochinatown.net
@@ -465,16 +429,13 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇨🇿_CZ_捷克'
-  - '[Live] 🇧🇷_BR_巴西->🇮🇷_IR_伊朗'
   - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇨🇳_CN_中国_1'
-  - '[Live] 🇨🇳_CN_中国_2'
-  - '[Live] 🇨🇳_CN_中国_3'
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  - '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国_1'
+  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇨🇳_CN_中国_1'
   - '[Free] 🇷🇺_RU_俄罗斯'
@@ -507,16 +468,13 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇨🇿_CZ_捷克'
-  - '[Live] 🇧🇷_BR_巴西->🇮🇷_IR_伊朗'
   - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇨🇳_CN_中国_1'
-  - '[Live] 🇨🇳_CN_中国_2'
-  - '[Live] 🇨🇳_CN_中国_3'
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  - '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国_1'
+  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇨🇳_CN_中国_1'
   - '[Free] 🇷🇺_RU_俄罗斯'
