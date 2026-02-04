@@ -17,28 +17,48 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: se.rakslinevpn.su
-  port: 443
-  uuid: 56d1d355-92c9-4a9c-91e4-327d29d9a82f
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: se.rakslinevpn.su
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
-  server: fr.1picofile.co.uk
-  port: 8443
-  uuid: f0f7551e-32f2-420f-a1bd-6d3d77e096a6
+  name: '[Live] 🇺🇸_US_美国->🏳️_unKnow_未知'
+  server: 144.31.198.228
+  port: 56328
+  uuid: 7ccaae6a-8903-46c0-8de1-2b7dd5f3c1fb
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: tgju.org
+  servername: canva.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  server: cdn.halazzon.ir
+  port: 2053
+  uuid: c659ce22-0a02-4d75-8c89-58d99916b846
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ir6.hnbyme.online
+- type: vless
+  name: '[Live] 🇸🇰_SK_斯洛伐克'
+  server: 86.110.243.171
+  port: 25449
+  uuid: 0df23c07-b289-4d65-822a-228478ca73bd
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: eh.vk.com
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 0ru84.tcpdoor.net
+  port: 443
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 0ru84.tcpdoor.net
 - type: vless
   name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  server: 1.kkcweb.ir
+  server: v3.dabache.top
   port: 2083
   uuid: c805b05e-339d-40e0-8787-432d97a27345
   network: ws
@@ -47,47 +67,55 @@ proxies:
   flow: ''
   servername: hajames.amirconfigpaanelllll.com
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: v1.dabache.top
+  name: '[Live] 🇧🇷_BR_巴西'
+  server: 188.114.98.0
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: e5bb092c-2b3c-053c-2bf2-e674bd333ad3
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: DiprOX.pages.DEV
+  servername: tr4.weedpanel.site
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: nodejs.org
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vmess
-  name: '[Live] 🇨🇳_CN_中国'
-  server: 3a43b02c-t9w4g0-tc61cs-1tja8.hkt.gotochinatown.net
-  port: 80
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- type: vless
-  name: '[Live] 🇸🇪_SE_瑞典'
-  server: dd.openaccessnode.com
-  port: 503
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  name: '[Live] 🇷🇺_RU_俄罗斯_1'
+  server: 212.233.96.101
+  port: 8443
+  uuid: 01916d86-f8d6-4cb3-8108-41a1cabdb855
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: refersion.com
+  servername: max.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇨🇴_CO_哥伦比亚'
+  server: 91.148.134.83
+  port: 8443
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 5465765525.ccfly.tech
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  server: 146.185.208.206
+  port: 443
+  uuid: 914b0493-7094-4840-b94d-8ec3e92e9c43
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yandex.ru
+- type: vless
+  name: '[Live] 🇨🇿_CZ_捷克->🇬🇧_GB_英国'
+  server: ee.rakslinevpn.su
+  port: 443
+  uuid: 56d1d355-92c9-4a9c-91e4-327d29d9a82f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: ee.rakslinevpn.su
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: nodejs.org
@@ -358,13 +386,16 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
+  - '[Live] 🇺🇸_US_美国->🏳️_unKnow_未知'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇸🇰_SK_斯洛伐克'
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇸🇪_SE_瑞典'
+  - '[Live] 🇧🇷_BR_巴西'
+  - '[Live] 🇷🇺_RU_俄罗斯_1'
+  - '[Live] 🇺🇸_US_美国->🇨🇴_CO_哥伦比亚'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇨🇿_CZ_捷克->🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗'
   - '[Free] 🇷🇺_RU_俄罗斯->🇧🇪_BE_比利时'
@@ -394,13 +425,16 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
+  - '[Live] 🇺🇸_US_美国->🏳️_unKnow_未知'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇸🇰_SK_斯洛伐克'
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇸🇪_SE_瑞典'
+  - '[Live] 🇧🇷_BR_巴西'
+  - '[Live] 🇷🇺_RU_俄罗斯_1'
+  - '[Live] 🇺🇸_US_美国->🇨🇴_CO_哥伦比亚'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇨🇿_CZ_捷克->🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗'
   - '[Free] 🇷🇺_RU_俄罗斯->🇧🇪_BE_比利时'
