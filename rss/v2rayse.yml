@@ -17,74 +17,94 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇮🇳_IN_印度'
-  server: in-most.asbndx.com
-  port: 443
-  uuid: 3209ec50-2909-4972-83cb-93349f9d94fd
+  name: '[Live] 🇸🇪_SE_瑞典'
+  server: dd.openaccessnode.com
+  port: 504
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nobitex.ir
+- type: vless
+  name: '[Live] 🇬🇧_GB_英国'
+  server: srv4.outlinekeys.com
+  port: 8443
+  uuid: 3ff03067-b0dd-4361-a21f-27bb9474b9b8
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: in-most.asbndx.com
+  servername: sun1-90.userapi.com
+- type: vmess
+  name: '[Live] 🇨🇳_CN_中国'
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  server: s1.db-link.in
+  port: 443
+  uuid: 621a845a-48ea-35f0-9b9a-ca499c647ade
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: dabaihk.webn.cc
+- type: vless
+  name: '[Live] 🇸🇪_SE_瑞典_1'
+  server: dd.openaccessnode.com
+  port: 503
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: refersion.com
+- type: vless
+  name: '[Live] 🇳🇱_NL_荷兰'
+  server: nl01-gmn02-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: hls-svod.itunes.apple.com
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: srv11.outlinekeys.com
+  port: 443
+  uuid: ca911bd2-e08f-42d8-aefb-3117494d3367
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: srv11.outlinekeys.com
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: nodejs.org
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 162.159.7.198
+  server: 104.19.61.241
   port: 443
-  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: germany.pahlevancompani.com
+  servername: DiprOX.pages.DEV
 - type: vless
-  name: '[Live] 🇰🇷_KR_韩国'
-  server: 2.kr.1.cdn-bilibili.cn
-  port: 443
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇮🇷_IR_伊朗'
+  server: 109.120.191.248
+  port: 8443
+  uuid: 49aabf68-e986-4722-8fd1-1702ce996bb6
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: www.icloud.com
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  server: 194.76.18.25
-  port: 2053
-  uuid: c659ce22-0a02-4d75-8c89-58d99916b846
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ir6.hnbyme.online
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 47.80.13.85
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: api.company-target.com
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  server: 146.185.208.206
-  port: 443
-  uuid: 914b0493-7094-4840-b94d-8ec3e92e9c43
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: yandex.ru
+  servername: io.ozone.ru
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 162.159.7.198
@@ -361,13 +381,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇷🇺_RU_俄罗斯->🇮🇳_IN_印度'
+  - '[Live] 🇸🇪_SE_瑞典'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇸🇪_SE_瑞典_1'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇮🇷_IR_伊朗'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国->🇷🇺_RU_俄罗斯'
   - '[Free] 🇩🇪_DE_德国'
@@ -398,13 +420,15 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇷🇺_RU_俄罗斯->🇮🇳_IN_印度'
+  - '[Live] 🇸🇪_SE_瑞典'
+  - '[Live] 🇬🇧_GB_英国'
+  - '[Live] 🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇸🇪_SE_瑞典_1'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇰🇷_KR_韩国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇮🇷_IR_伊朗'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国->🇷🇺_RU_俄罗斯'
   - '[Free] 🇩🇪_DE_德国'
