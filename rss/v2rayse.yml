@@ -16,65 +16,15 @@ dns:
   - 114.114.114.114
   - 8.8.8.8
 proxies:
-- type: vless
-  name: '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
-  server: wi.buzzmuzzpanel.online
-  port: 2053
-  uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ds2-mx-hel22-protection.iranlease.com
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  server: 194.164.192.16
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇺🇸_US_美国->🇨🇦_CA_加拿大'
-  server: 172.66.128.70
-  port: 80
-  uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
-  network: ws
+- type: vmess
+  name: '[Live] 🇮🇷_IR_伊朗->🇩🇪_DE_德国'
+  server: s1.fastly4wards.com
+  port: 2087
+  uuid: f69943c7-69b8-476c-b1ca-48c374c66a38
+  alterId: 0
+  cipher: auto
+  network: tcp
   tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇮🇷_IR_伊朗'
-  server: 31.59.120.161
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
-  server: v3.dabache.top
-  port: 443
-  uuid: 873a8e21-5fed-36a7-b251-734ebc97381c
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: dabaif0.webn.cc
-- type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: cf.090227.xyz
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
 - type: vless
   name: '[Live] 🇪🇸_ES_西班牙'
   server: 95.182.98.38
@@ -86,15 +36,75 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 89.23.103.249
-  port: 8443
-  uuid: f1870ac5-ab5f-4255-965d-4a0476cb0b1a
+  name: '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
+  server: 89.168.41.228
+  port: 2053
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 5465765525.ccfly.tech
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  server: 162.159.152.4
+  port: 2053
+  uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ds2-mx-hel22-protection.iranlease.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: 146.190.89.69
+  port: 25863
+  uuid: 58f206da-752d-4750-a2ac-b72d0cab8032
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: ir.ozone.ru
+  servername: aws.amazon.com
+- type: vless
+  name: '[Live] 🇵🇹_PT_葡萄牙->🇺🇸_US_美国'
+  server: 89.115.133.255
+  port: 443
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 5465765525.ccfly.tech
+- type: vless
+  name: '[Live] 🇳🇱_NL_荷兰'
+  server: 185.247.185.6
+  port: 5443
+  uuid: cd0aba07-3b28-48a2-8cbb-49be72420089
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com:443
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚_1'
+  server: wi.buzzmuzzpanel.online
+  port: 2053
+  uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: ds2-mx-hel22-protection.iranlease.com
+- type: vless
+  name: '[Live] 🇪🇸_ES_西班牙->🇫🇷_FR_法国'
+  server: 188.130.207.158
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
 - type: vless
   name: '[Free] 🇮🇷_IR_伊朗'
   server: 94.183.183.196
@@ -393,14 +403,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国->🇨🇦_CA_加拿大'
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
-  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇮🇷_IR_伊朗->🇩🇪_DE_德国'
   - '[Live] 🇪🇸_ES_西班牙'
-  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇵🇹_PT_葡萄牙->🇺🇸_US_美国'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚_1'
+  - '[Live] 🇪🇸_ES_西班牙->🇫🇷_FR_法国'
   - '[Free] 🇮🇷_IR_伊朗'
   - '[Free] 🇺🇸_US_美国->🏳️_unKnow_未知'
   - '[Free] 🇷🇺_RU_俄罗斯'
@@ -433,14 +444,15 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国->🇨🇦_CA_加拿大'
-  - '[Live] 🇮🇷_IR_伊朗'
-  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
-  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇮🇷_IR_伊朗->🇩🇪_DE_德国'
   - '[Live] 🇪🇸_ES_西班牙'
-  - '[Live] 🇷🇺_RU_俄罗斯'
+  - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇵🇹_PT_葡萄牙->🇺🇸_US_美国'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚_1'
+  - '[Live] 🇪🇸_ES_西班牙->🇫🇷_FR_法国'
   - '[Free] 🇮🇷_IR_伊朗'
   - '[Free] 🇺🇸_US_美国->🏳️_unKnow_未知'
   - '[Free] 🇷🇺_RU_俄罗斯'
