@@ -17,8 +17,38 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚'
-  server: 216.173.69.143
+  name: '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  server: 188.253.17.9
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Live] 🇸🇦_SA_沙特阿拉伯->🇺🇸_US_美国'
+  server: 77.110.118.166
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: mobile.twitter.now.cc
+  port: 443
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: 5465765525.ccfly.tech
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  server: 5.35.37.31
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -27,27 +57,17 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  server: 69.84.182.13
+  name: '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
+  server: 194.164.192.16
   port: 443
-  uuid: 271ad593-3c8d-4bea-a785-350ddad205c9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: jp1-jp1.aiopen.sbs
+  servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 62.133.62.85
-  port: 47030
-  uuid: 8edffcc8-c437-4c49-a4b6-43d256b15e14
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-- type: vless
-  name: '[Live] 🇺🇸_US_美国'
+  name: '[Live] 🇺🇸_US_美国_1'
   server: 212.87.220.225
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -57,8 +77,8 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇱🇹_LT_立陶宛'
-  server: 91.197.0.117
+  name: '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛_1'
+  server: 5.34.212.179
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -67,49 +87,9 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
-  server: 5.34.209.139
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  server: 195.200.17.63
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇵🇱_PL_波兰'
-  server: 178.248.75.53
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  server: 185.242.106.215
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
-  server: 188.253.23.234
-  port: 443
+  name: '[Live] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
+  server: 87.236.177.56
+  port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -391,16 +371,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚'
-  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇱🇹_LT_立陶宛'
   - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
   - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  - '[Live] 🇵🇱_PL_波兰'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  - '[Live] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛_1'
+  - '[Live] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
   - '[Free] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
   - '[Free] 🇵🇹_PT_葡萄牙->🇺🇸_US_美国'
@@ -431,16 +409,14 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚'
-  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇱🇹_LT_立陶宛'
   - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
   - '[Live] 🇬🇧_GB_英国->🇺🇸_US_美国'
-  - '[Live] 🇵🇱_PL_波兰'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  - '[Live] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛_1'
+  - '[Live] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
   - '[Free] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
   - '[Free] 🇵🇹_PT_葡萄牙->🇺🇸_US_美国'
