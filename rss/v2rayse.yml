@@ -17,8 +17,8 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  server: 194.55.137.25
+  name: '[Live] 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国'
+  server: 5.253.188.151
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -27,18 +27,28 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 142.93.101.216
-  port: 7008
-  uuid: a3ea154c-2827-4ceb-aae7-0fe743ce9f73
+  name: '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  server: 5.34.211.94
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Live] 🇳🇱_NL_荷兰'
+  server: finland.boot-lee.ru
+  port: 8443
+  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
   network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: bebem.com
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com
 - type: vless
-  name: '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  server: 45.114.62.148
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  server: 89.110.102.110
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -47,8 +57,8 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡'
-  server: 194.36.178.36
+  name: '[Live] 🇵🇱_PL_波兰->🇳🇱_NL_荷兰'
+  server: 188.116.21.186
   port: 2053
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -57,18 +67,8 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇰🇷_KR_韩国'
-  server: 111.118.118.177
-  port: 12399
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.jpmj.dev
-- type: vless
-  name: '[Live] 🇳🇱_NL_荷兰'
-  server: 45.131.187.210
+  name: '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  server: 212.34.128.170
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -77,8 +77,18 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国_1'
-  server: 202.71.13.242
+  name: '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
+  server: 155.248.181.189
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  server: 5.39.249.10
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -86,57 +96,8 @@ proxies:
   encryption: none
   flow: ''
   servername: sni.111000.indevs.in
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 104.18.32.47
-  port: 80
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: vip3.kaixincloud.top
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: DiprOX.pages.DEV
-- type: vless
-  name: '[Free] 🇳🇱_NL_荷兰'
-  server: 37.1.217.225
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  server: 185.218.137.83
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇳🇱_NL_荷兰->🇺🇸_US_美国'
-  server: 185.209.162.38
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
 - type: vmess
-  name: '[Free] 🇺🇸_US_美国'
+  name: '[Live] 🇺🇸_US_美国'
   server: v1.dabache.top
   port: 443
   uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
@@ -149,8 +110,128 @@ proxies:
     headers:
       Host: blog.dezh.store
 - type: vless
-  name: '[Free] 🇸🇪_SE_瑞典->🇺🇸_US_美国'
-  server: 195.93.253.207
+  name: '[Live] 🇪🇸_ES_西班牙->🏳️_unKnow_未知'
+  server: 185.18.250.252
+  port: 443
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: dev.twistsparrow.xyz
+- type: vless
+  name: '[Free] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  server: 188.253.20.146
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: 212.192.246.57
+  port: 2087
+  uuid: 3dcd6767-ec3e-4eeb-9fa6-c70b8661072f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: refersion.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: 104.19.61.241
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: DiprOX.pages.DEV
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  server: vk-de.asbndx.com
+  port: 443
+  uuid: 62320388-4694-4d21-82f0-757722eb3b77
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: max.ru
+- type: vless
+  name: '[Free] 🇱🇹_LT_立陶宛'
+  server: lithuania.boot-lee.ru
+  port: 8443
+  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com
+- type: vless
+  name: '[Free] 🇸🇬_SG_新加坡->🇺🇸_US_美国'
+  server: 66.42.51.60
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: de-05.anotherboring.top
+  port: 443
+  uuid: 671c0340-77dc-402f-8bc1-60558bc46540
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: de-05.anotherboring.top
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  server: 46.8.225.24
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜'
+  server: 152.67.211.114
+  port: 58337
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇯🇵_JP_日本->🇺🇸_US_美国'
+  server: 193.123.161.116
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: germany.boot-lee.ru
+  port: 8443
+  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com
+- type: vless
+  name: '[Free] 🇳🇱_NL_荷兰->🇮🇳_IN_印度'
+  server: 45.88.183.55
   port: 2053
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -158,211 +239,23 @@ proxies:
   encryption: none
   flow: ''
   servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇫🇷_FR_法国'
-  server: iar.blackhoster.com
-  port: 350
-  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: excoino.com
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  server: 77.238.232.228
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇺🇦_UA_乌克兰->🇫🇷_FR_法国'
-  server: 94.131.9.65
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇧🇪_BE_比利时'
-  server: nl-78w-c.southnetworks.cloud
-  port: 80
-  uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
 - type: vmess
-  name: '[Free] 🇺🇸_US_美国_1'
-  server: v1.dabache.top
-  port: 2083
-  uuid: 698ba3c2-e501-42c3-8dc4-2d44e7099454
+  name: '[Free] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  server: nextmi.hajmyab.ir
+  port: 2053
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   alterId: 0
   cipher: auto
   network: ws
   tls: true
   ws-opts:
-    path: /ws
+    path: /
     headers:
-      Host: blog.dezh.store
-- type: vless
-  name: '[Free] 🇺🇸_US_美国->🇨🇳_CN_中国'
-  server: 156.230.12.71
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  server: 202.71.13.242
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
-  server: 31.15.18.26
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇬🇧_GB_英国'
-  server: fr2.miyazono-kaori.com
-  port: 443
-  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: www.edf.fr
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  server: 89.169.128.105
-  port: 443
-  uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇪🇸_ES_西班牙->🇳🇱_NL_荷兰'
-  server: 212.34.141.125
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇮🇹_IT_意大利'
-  server: 130.193.59.133
-  port: 8443
-  uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇯🇵_JP_日本'
-  server: 202.84.53.85
-  port: 19999
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇳🇱_NL_荷兰_1'
-  server: 45.129.8.68
-  port: 45631
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  server: 31.59.121.155
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  server: 158.160.105.121
-  port: 51102
-  uuid: 4603e54d-b023-4947-83e7-70025416f306
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vless
-  name: '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
-  server: 188.253.23.234
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1'
-  server: 89.169.13.12
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇮🇳_IN_印度->🇳🇱_NL_荷兰'
-  server: 103.54.18.233
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
-- type: vless
-  name: '[Free] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
-  server: 212.34.128.170
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
+      Host: app.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
 - type: vless
   name: '[Free] 🇺🇸_US_美国_2'
-  server: 64.176.54.102
+  server: 172.86.73.221
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -372,17 +265,50 @@ proxies:
   servername: sni.111000.indevs.in
 - type: vless
   name: '[Free] 🇺🇸_US_美国_3'
-  server: ovhwuxian.pai50288.uk
-  port: 8443
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  server: 172.64.145.3
+  port: 443
+  uuid: 685644a1-27c1-4e0d-8391-b8310a4f7c8b
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: ovhwuxian.pai50288.uk
+  servername: germany.pahlevancompani.com
 - type: vless
-  name: '[Free] 🇯🇵_JP_日本_1'
-  server: 210.231.178.90
+  name: '[Free] 🇺🇸_US_美国->🇮🇳_IN_印度'
+  server: 152.70.75.80
+  port: 15805
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇳🇴_NO_挪威'
+  server: 217.170.206.157
+  port: 443
+  uuid: c310c80c-1e60-42a7-8b01-ca1123df0c16
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: azure.com
+- type: vmess
+  name: '[Free] 🇺🇸_US_美国->🇦🇺_AU_澳大利亚'
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sy4.620720.xyz
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  server: 77.246.102.6
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -391,8 +317,8 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Free] 🇬🇧_GB_英国_1'
-  server: 158.179.173.208
+  name: '[Free] 🇯🇵_JP_日本'
+  server: 172.105.209.25
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -401,102 +327,192 @@ proxies:
   flow: ''
   servername: sni.111000.indevs.in
 - type: vless
-  name: '[Free] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
-  server: 146.103.100.127
-  port: 2053
+  name: '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  server: 5.34.212.223
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   encryption: none
   flow: ''
   servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇺🇸_US_美国->🇰🇵_KP_朝鲜'
+  server: 152.70.236.195
+  port: 30001
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vmess
+  name: '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
+  server: v8.hdacd.com
+  port: 30808
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vless
+  name: '[Free] 🇳🇱_NL_荷兰'
+  server: uk2.miyazono-kaori.com
+  port: 443
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: www.bp.com
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰_1'
+  server: 5.35.37.31
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  server: 195.133.75.35
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 未知'
+  server: cf.mahdi383ir.website
+  port: 2082
+  uuid: 48ce9313-4913-4100-eedf-bccf3f956dec
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
+  server: 103.137.250.250
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国_1'
+  server: 83.147.253.194
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sni.111000.indevs.in
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: vip2.kaixincloud.top
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: DiprOX.pages.DEV
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡'
-  - '[Live] 🇰🇷_KR_韩国'
+  - '[Live] 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国'
+  - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
   - '[Live] 🇳🇱_NL_荷兰'
-  - '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Free] 🇳🇱_NL_荷兰'
-  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[Free] 🇳🇱_NL_荷兰->🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  - '[Live] 🇵🇱_PL_波兰->🇳🇱_NL_荷兰'
+  - '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
+  - '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇪🇸_ES_西班牙->🏳️_unKnow_未知'
+  - '[Free] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  - '[Free] 🇷🇺_RU_俄罗斯'
   - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇸🇪_SE_瑞典->🇺🇸_US_美国'
-  - '[Free] 🇫🇷_FR_法国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Free] 🇺🇦_UA_乌克兰->🇫🇷_FR_法国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇧🇪_BE_比利时'
+  - '[Free] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Free] 🇱🇹_LT_立陶宛'
+  - '[Free] 🇸🇬_SG_新加坡->🇺🇸_US_美国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  - '[Free] 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜'
+  - '[Free] 🇯🇵_JP_日本->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇺🇸_US_美国->🇨🇳_CN_中国'
-  - '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
-  - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  - '[Free] 🇪🇸_ES_西班牙->🇳🇱_NL_荷兰'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇮🇹_IT_意大利'
-  - '[Free] 🇯🇵_JP_日本'
-  - '[Free] 🇳🇱_NL_荷兰_1'
-  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1'
-  - '[Free] 🇮🇳_IN_印度->🇳🇱_NL_荷兰'
-  - '[Free] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Free] 🇳🇱_NL_荷兰->🇮🇳_IN_印度'
+  - '[Free] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇯🇵_JP_日本_1'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
+  - '[Free] 🇺🇸_US_美国->🇮🇳_IN_印度'
+  - '[Free] 🇳🇴_NO_挪威'
+  - '[Free] 🇺🇸_US_美国->🇦🇺_AU_澳大利亚'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Free] 🇺🇸_US_美国->🇰🇵_KP_朝鲜'
+  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 未知'
+  - '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
+  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国_1'
+  - '[Free] 🇺🇸_US_美国_4'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡'
-  - '[Live] 🇰🇷_KR_韩国'
+  - '[Live] 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国'
+  - '[Live] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
   - '[Live] 🇳🇱_NL_荷兰'
-  - '[Live] 🇮🇳_IN_印度->🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Free] 🇳🇱_NL_荷兰'
-  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[Free] 🇳🇱_NL_荷兰->🇺🇸_US_美国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  - '[Live] 🇵🇱_PL_波兰->🇳🇱_NL_荷兰'
+  - '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
+  - '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇪🇸_ES_西班牙->🏳️_unKnow_未知'
+  - '[Free] 🇮🇷_IR_伊朗->🇱🇹_LT_立陶宛'
+  - '[Free] 🇷🇺_RU_俄罗斯'
   - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇸🇪_SE_瑞典->🇺🇸_US_美国'
-  - '[Free] 🇫🇷_FR_法国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Free] 🇺🇦_UA_乌克兰->🇫🇷_FR_法国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇧🇪_BE_比利时'
+  - '[Free] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Free] 🇱🇹_LT_立陶宛'
+  - '[Free] 🇸🇬_SG_新加坡->🇺🇸_US_美国'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  - '[Free] 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜'
+  - '[Free] 🇯🇵_JP_日本->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
-  - '[Free] 🇺🇸_US_美国->🇨🇳_CN_中国'
-  - '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
-  - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  - '[Free] 🇪🇸_ES_西班牙->🇳🇱_NL_荷兰'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇮🇹_IT_意大利'
-  - '[Free] 🇯🇵_JP_日本'
-  - '[Free] 🇳🇱_NL_荷兰_1'
-  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1'
-  - '[Free] 🇮🇳_IN_印度->🇳🇱_NL_荷兰'
-  - '[Free] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Free] 🇳🇱_NL_荷兰->🇮🇳_IN_印度'
+  - '[Free] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
   - '[Free] 🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国_3'
-  - '[Free] 🇯🇵_JP_日本_1'
-  - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇧🇪_BE_比利时->🇳🇱_NL_荷兰'
+  - '[Free] 🇺🇸_US_美国->🇮🇳_IN_印度'
+  - '[Free] 🇳🇴_NO_挪威'
+  - '[Free] 🇺🇸_US_美国->🇦🇺_AU_澳大利亚'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Free] 🇺🇸_US_美国->🇰🇵_KP_朝鲜'
+  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
+  - '[Free] 🇳🇱_NL_荷兰'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 未知'
+  - '[Free] 🇮🇳_IN_印度->🇺🇸_US_美国'
+  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国_1'
+  - '[Free] 🇺🇸_US_美国_4'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
