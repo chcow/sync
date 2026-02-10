@@ -18,74 +18,36 @@ dns:
 proxies:
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: www.visa.com.sg
-  port: 2052
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: usa69.openbypass.org
+  server: 104.167.197.27
   port: 443
-  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: usa69.openbypass.org
+  servername: azure.microsoft.com
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: sh.shahab--web.com
-  port: 2083
-  uuid: b0191eca-a681-44a3-ceab-70560d5ca1a8
+  name: '[Live] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  server: 104.24.196.20
+  port: 2053
+  uuid: c3ffa4ee-fbbe-45e3-f737-db2f381f557e
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: sh.shahab--web.com
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: 20.79.162.37
+  name: '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
+  server: 154.31.114.125
   port: 443
-  uuid: jina
+  uuid: a2767453-2770-4cdd-80bf-ab65724799f2
   network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: jina-207916237-direct.yektanet.co
-- type: vless
-  name: '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  server: 69.84.182.13
-  port: 443
-  uuid: da793913-33ef-45c0-806d-f23644c555f2
-  network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: jp1-jp1.aiopen.sbs
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  server: 79.137.175.59
-  port: 8443
-  uuid: 0a9fe7e0-e02d-42ca-bebd-ecb4292f180c
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: m.vk.ru
+  servername: navi.bankrate.com
 - type: vless
   name: '[Live] 未知'
-  server: cf.mahdi383ir.website
-  port: 2082
-  uuid: 48ce9313-4913-4100-eedf-bccf3f956dec
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 未知_1'
   server: cf.mahdi383ir.website
   port: 2096
   uuid: cdddbb3f-5481-4d12-e3ee-597f97910d21
@@ -95,25 +57,55 @@ proxies:
   flow: ''
   servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 104.18.32.47
-  port: 8443
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  name: '[Live] 未知_1'
+  server: cf.mahdi383ir.website
+  port: 2053
+  uuid: c3ffa4ee-fbbe-45e3-f737-db2f381f557e
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: ovhwuxian.pai50288.uk
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
 - type: vless
-  name: '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
-  server: france.alpacalounge.com
-  port: 2096
-  uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+  name: '[Live] 🇯🇵_JP_日本'
+  server: 47.74.6.60
+  port: 443
+  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
   network: tcp
   tls: true
   encryption: none
-  flow: xtls-rprx-vision
-  servername: fr.alpacalounge.com
+  flow: ''
+  servername: cdn77.api.userway.org
+- type: vless
+  name: '[Live] 🇮🇹_IT_意大利'
+  server: realmadrid2italy1seriea.q.aparat-archive.ir
+  port: 8880
+  uuid: 4583d428-8ff9-4000-bcbd-953fe8c8df17
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: max.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: usa69.openbypass.org
+  port: 8443
+  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: usa69.openbypass.org
+- type: vless
+  name: '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
+  server: usa.vpnspacev.com
+  port: 443
+  uuid: f6a07f24-4059-4593-9feb-044a8760f46c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: vpnspacev.com
 - type: vless
   name: '[Free] 🇧🇷_BR_巴西->🇺🇸_US_美国'
   server: 168.138.198.7
@@ -393,15 +385,14 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
   - '[Live] 未知'
   - '[Live] 未知_1'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  - '[Live] 🇯🇵_JP_日本'
+  - '[Live] 🇮🇹_IT_意大利'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
   - '[Free] 🇧🇷_BR_巴西->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
@@ -433,15 +424,14 @@ proxy-groups:
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国->🇯🇵_JP_日本'
   - '[Live] 未知'
   - '[Live] 未知_1'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  - '[Live] 🇯🇵_JP_日本'
+  - '[Live] 🇮🇹_IT_意大利'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇧🇷_BR_巴西->🇩🇪_DE_德国'
   - '[Free] 🇧🇷_BR_巴西->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
