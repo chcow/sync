@@ -18,16 +18,138 @@ dns:
 proxies:
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: 94.131.100.42
-  port: 42642
-  uuid: e04f764c-6009-45aa-b033-97a90024634b
+  server: 20.79.162.37
+  port: 443
+  uuid: jina
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: stats.vk-portal.net
+  servername: jina-207916237-direct.yektanet.co
 - type: vless
-  name: '[Live] 🇨🇭_CH_瑞士'
+  name: '[Live] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
+  server: pls.kopobkatopta.ru
+  port: 8443
+  uuid: d8b39f21-7a23-449d-b26c-c88d47400eae
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: pls.kopobkatopta.ru
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 81.200.151.79
+  port: 443
+  uuid: 6beee13a-f356-4a51-8e65-75f776508e8f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: m.vk.com
+- type: vless
+  name: '[Live] 🇮🇷_IR_伊朗->🇵🇱_PL_波兰'
+  server: blog.zanbori.ir
+  port: 4220
+  uuid: 51d7e784-d531-4756-a887-cb60b3069aa3
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Live] 🇧🇾_BY_白俄罗斯'
+  server: by.cdn.titun.su
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: by.cdn.titun.su
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: cf.090227.xyz
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+- type: vmess
+  name: '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+- type: vless
+  name: '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  server: germany.alpacalounge.com
+  port: 443
+  uuid: b358dfad-0403-47f4-9eb6-2a2a9768c1c9
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: ge.alpacalounge.com
+- type: vmess
+  name: '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  server: dll.avaaaal.ir
+  port: 8443
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cdge.avaaaal.ir
+  servername: cdge.avaaaal.ir
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯'
+  server: 78.153.139.68
+  port: 8443
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: images.apple.com
+- type: vless
+  name: '[Free] 🇬🇧_GB_英国'
+  server: 51.250.65.209
+  port: 443
+  uuid: 6beee13a-f356-4a51-8e65-75f776508e8f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: ads.x5.ru
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
+  server: 84.23.52.70
+  port: 8443
+  uuid: fed6eca7-ac5e-489d-816a-3500877b9acc
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: m.vk.ru
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_1'
+  server: meow-msc.nethcloud.top
+  port: 8443
+  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: wikihow.com
+- type: vless
+  name: '[Free] 🇨🇭_CH_瑞士'
   server: 185.227.149.123
   port: 443
   uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
@@ -37,222 +159,45 @@ proxies:
   flow: xtls-rprx-vision
   servername: mycatcollection.com
 - type: vless
-  name: '[Live] 🇨🇦_CA_加拿大'
-  server: us.axinode.sbs
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  server: 89.169.162.214
   port: 443
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: apple.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 144.31.128.47
-  port: 443
-  uuid: a607f07f-2937-4c2c-aec6-363e0688abd2
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: se-mirror.api.akenai.click
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: access-fl15.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Live] 🇱🇹_LT_立陶宛'
-  server: 93.115.25.177
-  port: 443
-  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: mycatcollection.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 64.188.64.59
-  port: 443
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: yandex.ru
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: usa.fastexte.pro
-  port: 443
-  uuid: 080c676a-c43f-4e73-aed9-db90ece9d4fb
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: usa.fastexte.pro
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  server: ru2.subsvdragontoo.online
-  port: 8443
-  uuid: c0c3dc30-4ed9-e13d-50e8-0a84a84815e3
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 144.31.128.129
-  port: 443
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: ae.cdn.stun.su
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯'
-  server: access-fl.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_1'
-  server: access-fl4.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_2'
-  server: access-fl30.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  server: 89.169.128.105
-  port: 8443
-  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
+  uuid: 1a5b443d-42f3-4e8e-b980-2ebf9e74a45d
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   servername: yandex.ru
-- type: vless
-  name: '[Free] 🇩🇰_DK_丹麦'
-  server: 193.163.203.36
-  port: 10001
-  uuid: 6a3f4da1-687a-4bde-9943-df057315857c
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: www.intel.com
-- type: vmess
-  name: '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vless
-  name: '[Free] 🇺🇸_US_美国'
-  server: 144.31.3.30
-  port: 443
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: poland.scroogethebest.com
 - type: vless
   name: '[Free] 🇨🇳_CN_中国'
-  server: hinet2.gzcloud.shop
-  port: 20519
-  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  server: 62.60.237.240
+  port: 443
+  uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: logggg.nammknammknammknammknammkb2.ir
+- type: vless
+  name: '[Free] 🇺🇸_US_美国'
+  server: 94.131.100.42
+  port: 42642
+  uuid: e04f764c-6009-45aa-b033-97a90024634b
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: buylite.music.apple.com
+  servername: stats.vk-portal.net
 - type: vless
-  name: '[Free] 🇬🇧_GB_英国'
-  server: 51.250.83.255
+  name: '[Free] 🇬🇧_GB_英国_1'
+  server: 51.250.4.119
   port: 443
-  uuid: 6beee13a-f356-4a51-8e65-75f776508e8f
+  uuid: c690db76-e866-4bca-b184-4965d29ab086
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   servername: api-maps.yandex.ru
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_3'
-  server: 2.59.162.100
-  port: 443
-  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: apple.com
-- type: vmess
-  name: '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  server: v35.hdacd.com
-  port: 30835
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  tls: false
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_4'
-  server: access-fl3.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Free] 🇪🇸_ES_西班牙->🇮🇷_IR_伊朗'
-  server: fr.cdn.stun.su
-  port: 443
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: fr.cdn.stun.su
-- type: vless
-  name: '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
-  server: fran.scroogethebest.com
-  port: 443
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: fran.scroogethebest.com
 - type: vless
   name: '[Free] 🇬🇷_GR_希腊'
   server: 185.234.57.207
@@ -264,84 +209,58 @@ proxies:
   flow: xtls-rprx-vision
   servername: teamdocs.su
 - type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_5'
-  server: access-fl11.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
+  name: '[Free] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
+  server: pls.kopobkatopta.ru
+  port: 8443
+  uuid: d8b39f21-7a23-449d-b26c-c88d47400eae
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: queuev4.vk.com
+  servername: pls.kopobkatopta.ru
 - type: vless
-  name: '[Free] 🇨🇭_CH_瑞士'
-  server: 138.124.186.157
-  port: 443
-  uuid: ee750cca-f549-4e78-8648-a6b762953e70
+  name: '[Free] 🇸🇪_SE_瑞典'
+  server: lolqk.space
+  port: 843
+  uuid: b8ecd8ed-31a1-4a6a-853e-4a739e130791
   network: tcp
   tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: deu542.globalunlock.org
-- type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  server: access-lv4.agveit.pro
-  port: 443
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: queuev4.vk.com
-- type: vless
-  name: '[Free] 🇬🇷_GR_希腊->🇺🇸_US_美国'
-  server: cze01-vlr01.tcp-reset-club.net
-  port: 10443
-  uuid: 4604876a-0652-4835-88bd-4421ea5c40da
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: hls-svod.itunes.apple.com
-- type: vless
-  name: '[Free] 🇺🇸_US_美国_1'
-  server: vless.nl1.vpnxray.site
-  port: 80
-  uuid: d4a569d2-7a76-5f9a-8d2e-d2a36933894d
-  network: ws
-  tls: false
   encryption: none
   flow: ''
+  servername: yahoo.com
 - type: vless
-  name: '[Free] 🇬🇧_GB_英国_1'
-  server: 91.84.124.41
+  name: '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克_1'
+  server: 84.23.52.70
   port: 443
-  uuid: 891300bc-11b2-4b24-8056-b329b098888b
+  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: github.com
+  servername: m.vk.ru
 - type: vless
-  name: '[Free] 🇷🇺_RU_俄罗斯_6'
-  server: 185.39.206.226
+  name: '[Free] 🇷🇴_RO_罗马尼亚'
+  server: 185.170.212.208
   port: 443
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  uuid: c73b5c37-0c2b-4d78-8a48-d32bba7432b4
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: eh.vk.com
-- type: vless
-  name: '[Free] 🇵🇱_PL_波兰'
-  server: pol.fasti.win
-  port: 443
-  uuid: f6d382fa-3a53-4497-beb0-b285ac9bcf3a
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: pl.fasti.win
+  servername: es.kickvpn.ru
+- type: vmess
+  name: '[Free] 未知'
+  server: TM_AZARBAYJAB1.SERV.9.pagES.DEV
+  port: 80
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    headers:
+      Host: tr1-smart.adelping.com
 - type: vless
   name: '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
   server: ezoutlet.cc
@@ -353,15 +272,127 @@ proxies:
   flow: xtls-rprx-vision
   servername: render.com
 - type: vless
-  name: '[Free] 🇺🇸_US_美国_2'
-  server: 94.131.100.42
-  port: 42642
-  uuid: e04f764c-6009-45aa-b033-97a90024634b
+  name: '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国_1'
+  server: vpnazadie.voicesofiran.org
+  port: 80
+  uuid: 8960cdff-0f33-42f5-8b69-8157069542db
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+  servername: digikala.com
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_1'
+  server: 144.31.221.8
+  port: 443
+  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: stats.vk-portal.net
+  servername: test.spectrum.vu
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_2'
+  server: nodejs.org
+  port: 2052
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  network: ws
+  tls: false
+  encryption: none
+  flow: ''
+- type: vless
+  name: '[Free] 🇺🇸_US_美国_3'
+  server: 144.31.212.248
+  port: 443
+  uuid: 53d37ac8-efc2-492c-b6c6-a864dfebbbff
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: finland.jinnie.lol
+- type: vmess
+  name: '[Free] 🇺🇸_US_美国_4'
+  server: 104.19.173.68
+  port: 8080
+  uuid: nasnet
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /NASNET/cdn?ed=2560
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+- type: vless
+  name: '[Free] 🇪🇪_EE_爱沙尼亚'
+  server: ndt.fasti.win
+  port: 443
+  uuid: f6d382fa-3a53-4497-beb0-b285ac9bcf3a
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: ndt.fasti.win
+- type: vless
+  name: '[Free] 🇷🇺_RU_俄罗斯_2'
+  server: 212.192.246.57
+  port: 2087
+  uuid: 3dcd6767-ec3e-4eeb-9fa6-c70b8661072f
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: refersion.com
+- type: vless
+  name: '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
+  server: 158.160.105.121
+  port: 443
+  uuid: e8accc46-c511-42fb-919b-9283799a88a1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: yandex.ru
+- type: vless
+  name: '[Free] 🇹🇷_TR_土耳其'
+  server: tr.fasti.win
+  port: 443
+  uuid: 5757c746-9878-4cfd-874a-edd95485f26d
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: tr.fasti.win
+- type: vless
+  name: '[Free] 🇯🇵_JP_日本'
+  server: 103.35.189.83
+  port: 443
+  uuid: fa-397456379-1771009078823820
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: steampowered.com
+- type: vless
+  name: '[Free] 🇪🇸_ES_西班牙->🇷🇺_RU_俄罗斯'
+  server: s2.plan-vpn.ru
+  port: 443
+  uuid: 3be95058-e4e5-40e2-b51c-db1e6313cb7c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: s2.plan-vpn.ru
+- type: vless
+  name: '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
+  server: fran.scroogethebest.com
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: fran.scroogethebest.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -369,78 +400,82 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇨🇭_CH_瑞士'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇱🇹_LT_立陶宛'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇮🇷_IR_伊朗->🇵🇱_PL_波兰'
+  - '[Live] 🇧🇾_BY_白俄罗斯'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
   - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  - '[Free] 🇩🇰_DK_丹麦'
-  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇷🇺_RU_俄罗斯_3'
-  - '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  - '[Free] 🇷🇺_RU_俄罗斯_4'
-  - '[Free] 🇪🇸_ES_西班牙->🇮🇷_IR_伊朗'
-  - '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
-  - '[Free] 🇬🇷_GR_希腊'
-  - '[Free] 🇷🇺_RU_俄罗斯_5'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇨🇭_CH_瑞士'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  - '[Free] 🇬🇷_GR_希腊->🇺🇸_US_美国'
-  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_6'
-  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇬🇷_GR_希腊'
+  - '[Free] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
+  - '[Free] 🇸🇪_SE_瑞典'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克_1'
+  - '[Free] 🇷🇴_RO_罗马尼亚'
+  - '[Free] 未知'
   - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国_1'
+  - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇪🇪_EE_爱沙尼亚'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+  - '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
+  - '[Free] 🇹🇷_TR_土耳其'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇪🇸_ES_西班牙->🇷🇺_RU_俄罗斯'
+  - '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇨🇭_CH_瑞士'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇱🇹_LT_立陶宛'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇮🇷_IR_伊朗->🇵🇱_PL_波兰'
+  - '[Live] 🇧🇾_BY_白俄罗斯'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国'
   - '[Free] 🇷🇺_RU_俄罗斯'
-  - '[Free] 🇷🇺_RU_俄罗斯_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_2'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
-  - '[Free] 🇩🇰_DK_丹麦'
-  - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Free] 🇺🇸_US_美国'
-  - '[Free] 🇨🇳_CN_中国'
   - '[Free] 🇬🇧_GB_英国'
-  - '[Free] 🇷🇺_RU_俄罗斯_3'
-  - '[Free] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  - '[Free] 🇷🇺_RU_俄罗斯_4'
-  - '[Free] 🇪🇸_ES_西班牙->🇮🇷_IR_伊朗'
-  - '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
-  - '[Free] 🇬🇷_GR_希腊'
-  - '[Free] 🇷🇺_RU_俄罗斯_5'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
+  - '[Free] 🇷🇺_RU_俄罗斯_1'
   - '[Free] 🇨🇭_CH_瑞士'
-  - '[Free] 🇷🇺_RU_俄罗斯->🇱🇻_LV_拉脱维亚'
-  - '[Free] 🇬🇷_GR_希腊->🇺🇸_US_美国'
-  - '[Free] 🇺🇸_US_美国_1'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[Free] 🇨🇳_CN_中国'
+  - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇬🇧_GB_英国_1'
-  - '[Free] 🇷🇺_RU_俄罗斯_6'
-  - '[Free] 🇵🇱_PL_波兰'
+  - '[Free] 🇬🇷_GR_希腊'
+  - '[Free] 🇷🇴_RO_罗马尼亚->🇵🇱_PL_波兰'
+  - '[Free] 🇸🇪_SE_瑞典'
+  - '[Free] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克_1'
+  - '[Free] 🇷🇴_RO_罗马尼亚'
+  - '[Free] 未知'
   - '[Free] 🇮🇷_IR_伊朗->🇱🇻_LV_拉脱维亚'
+  - '[Free] 🇺🇸_US_美国->🇩🇪_DE_德国_1'
+  - '[Free] 🇺🇸_US_美国_1'
   - '[Free] 🇺🇸_US_美国_2'
+  - '[Free] 🇺🇸_US_美国_3'
+  - '[Free] 🇺🇸_US_美国_4'
+  - '[Free] 🇪🇪_EE_爱沙尼亚'
+  - '[Free] 🇷🇺_RU_俄罗斯_2'
+  - '[Free] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
+  - '[Free] 🇹🇷_TR_土耳其'
+  - '[Free] 🇯🇵_JP_日本'
+  - '[Free] 🇪🇸_ES_西班牙->🇷🇺_RU_俄罗斯'
+  - '[Free] 🇫🇷_FR_法国->🇺🇸_US_美国'
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎯 全球直连
