@@ -17,14 +17,24 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 51.250.87.167
+  name: '[Live] 🇺🇸_US_美国->🇸🇨_SC_塞舌尔'
+  server: pol1.linkey37.ru
   port: 443
-  uuid: 64a3a23c-363a-4bee-9401-f5c42eea5a27
+  uuid: 201cb355-27c3-4bcc-a27f-50394519d242
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
+  servername: www.yandex.ru
+- type: vless
+  name: '[Live] 🇧🇬_BG_保加利亚'
+  server: 31.13.208.89
+  port: 443
+  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
+  network: grpc
+  tls: true
+  encryption: none
+  flow: ''
   servername: ads.x5.ru
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
@@ -37,39 +47,29 @@ proxies:
   flow: xtls-rprx-vision
   servername: germany.denditop.site
 - type: vless
-  name: '[Live] 🇭🇺_HU_匈牙利'
-  server: 217.13.104.134
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 94.154.161.14
   port: 443
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  uuid: a3dd7bef-f742-4ee4-897e-0d91629571bb
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: hu.jojack.ru
+  servername: azure.net
 - type: vless
-  name: '[Live] 🇧🇬_BG_保加利亚'
-  server: 31.13.208.89
+  name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  server: s501.ccgfw.top
   port: 443
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ads.x5.ru
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
-  server: 51.250.23.243
-  port: 443
-  uuid: 69dac49c-06ee-4d59-8a81-32515fcda263
+  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: www.vk.com
+  servername: u708330u05c4s501.ccgfw.top
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 172.64.154.248
-  port: 443
+  name: '[Live] 🇺🇸_US_美国->🇨🇳_CN_中国'
+  server: 166.0.198.81
+  port: 28017
   uuid: 6991c683-9978-0f82-ef9d-fb9c8a053b34
   network: ws
   tls: true
@@ -77,44 +77,45 @@ proxies:
   flow: ''
   servername: d657fa2a.lfree.ccwu.cc
 - type: vless
-  name: '[Live] 🇨🇦_CA_加拿大'
-  server: us.axinode.sbs
-  port: 443
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  name: '[Live] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  server: 144.31.19.3
+  port: 8443
+  uuid: e821a4aa-5892-4feb-bf76-a127cb3a2e56
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
   servername: apple.com
 - type: vless
-  name: '[Live] 🇪🇸_ES_西班牙'
-  server: 194.48.142.150
+  name: '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  server: 69.84.182.3
   port: 443
-  uuid: 7c792ab6-44ae-4831-a085-3c310b5f5551
-  network: tcp
+  uuid: fad9bc27-556f-4fec-bbd6-d8605a2ff60a
+  network: ws
   tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: s4.plan-vpn.ru
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 89.110.80.96
-  port: 4443
-  uuid: 9897f9f0-ee1d-4428-8a97-4a248751d5c5
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: github.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 104.128.134.181
-  port: 34816
-  uuid: 103b210d-c76d-488e-acd4-fed943ba025e
-  network: tcp
-  tls: false
   encryption: none
   flow: ''
+  servername: a.mohmdmusic.dpdns.org
+- type: vless
+  name: '[Live] 🇮🇷_IR_伊朗->🇪🇸_ES_西班牙'
+  server: fr.cdn.stun.su
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: fr.cdn.stun.su
+- type: vless
+  name: '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
+  server: 213.165.60.92
+  port: 443
+  uuid: b358dfad-0403-47f4-9eb6-2a2a9768c1c9
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: ge.alpacalounge.com
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 104.128.134.181
@@ -363,16 +364,16 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇭🇺_HU_匈牙利'
+  - '[Live] 🇺🇸_US_美国->🇸🇨_SC_塞舌尔'
   - '[Live] 🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇪🇸_ES_西班牙'
+  - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  - '[Live] 🇺🇸_US_美国->🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇮🇷_IR_伊朗->🇪🇸_ES_西班牙'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇨🇭_CH_瑞士'
   - '[Free] 🇷🇺_RU_俄罗斯'
@@ -400,16 +401,16 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇭🇺_HU_匈牙利'
+  - '[Live] 🇺🇸_US_美国->🇸🇨_SC_塞舌尔'
   - '[Live] 🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇪🇸_ES_西班牙'
+  - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
+  - '[Live] 🇺🇸_US_美国->🇨🇳_CN_中国'
+  - '[Live] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[Live] 🇺🇸_US_美国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇮🇷_IR_伊朗->🇪🇸_ES_西班牙'
+  - '[Live] 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇨🇭_CH_瑞士'
   - '[Free] 🇷🇺_RU_俄罗斯'
