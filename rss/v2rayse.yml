@@ -17,63 +17,54 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇨🇭_CH_瑞士'
-  server: lvcdn4.suio.me
-  port: 443
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: lvcdn4.suio.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 144.31.237.22
-  port: 443
-  uuid: ef69fec4-568a-428b-b0bf-5b3f9e9faa23
+  name: '[Live] 🇨🇳_CN_中国->🇯🇵_JP_日本'
+  server: 112.120.103.41
+  port: 20418
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: pingless.com
+  servername: buylite.music.apple.com
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 47.80.12.87
+  name: '[Live] 🇺🇸_US_美国'
+  server: test.spectrum.vu
   port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
   network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: api.company-target.com
-- type: vmess
-  name: '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  server: freedom.vipgsmteam.info
-  port: 17356
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+  flow: xtls-rprx-vision
+  servername: test.spectrum.vu
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 144.31.2.126
+  name: '[Live] 🇬🇧_GB_英国'
+  server: 217.154.194.55
   port: 443
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
   network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: plcdn19.suio.me
+  flow: xtls-rprx-vision
+  servername: azure.com
 - type: vmess
   name: '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  server: v9.hdacd.com
-  port: 30809
+  server: 144.48.186.104
+  port: 30835
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   network: tcp
   tls: false
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 172.64.154.248
+  port: 443
+  uuid: 6991c683-9978-0f82-ef9d-fb9c8a053b34
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: d657fa2a.lfree.ccwu.cc
 - type: vless
   name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇦_UA_乌克兰'
   server: 62.109.5.81
@@ -84,26 +75,24 @@ proxies:
   encryption: none
   flow: xtls-rprx-vision
   servername: eh.vk.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: usa.denditop.site
-  port: 443
-  uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+- type: vmess
+  name: '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: usa.denditop.site
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: 162.159.36.27
-  port: 2053
-  uuid: 6991c683-9978-0f82-ef9d-fb9c8a053b34
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: d657fa2a.lfree.ccwu.cc
+  tls: false
+- type: vmess
+  name: '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_2'
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
 - type: vless
   name: '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
   server: 144.31.139.71
@@ -323,15 +312,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇨🇭_CH_瑞士'
+  - '[Live] 🇨🇳_CN_中国->🇯🇵_JP_日本'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇷🇺_RU_俄罗斯->🇺🇦_UA_乌克兰'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
   - '[Free] 🇷🇺_RU_俄罗斯'
   - '[Free] 🇳🇱_NL_荷兰->🏳️_unKnow_未知'
@@ -356,15 +344,14 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇨🇭_CH_瑞士'
+  - '[Live] 🇨🇳_CN_中国->🇯🇵_JP_日本'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇷🇺_RU_俄罗斯->🇺🇦_UA_乌克兰'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国_2'
   - '[Free] 🇺🇸_US_美国->🇬🇧_GB_英国'
   - '[Free] 🇷🇺_RU_俄罗斯'
   - '[Free] 🇳🇱_NL_荷兰->🏳️_unKnow_未知'
