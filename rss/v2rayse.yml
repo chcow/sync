@@ -17,74 +17,84 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯'
+  server: 185.130.115.55
+  port: 443
+  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: web.max.ru
+- type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: fox20.wizard2shop.com
-  port: 2083
-  uuid: 85b31034-3862-4496-b108-ebb05985ac05
+  server: 94.131.100.42
+  port: 42642
+  uuid: e04f764c-6009-45aa-b033-97a90024634b
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: stats.vk-portal.net
+- type: vless
+  name: '[Live] 🇺🇦_UA_乌克兰'
+  server: data.cloudvibe.ir
+  port: 8443
+  uuid: e6bda2be-3163-4945-8d04-12de1392d250
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: wiz10.wizard2shop.org
+  servername: data-edm2.netsnap.ir
+- type: vless
+  name: '[Live] 🇳🇱_NL_荷兰'
+  server: kzcdn1.suio.me
+  port: 443
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: kzcdn1.suio.me
+- type: vless
+  name: '[Live] 🇨🇭_CH_瑞士'
+  server: lvcdn4.suio.me
+  port: 443
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: lvcdn4.suio.me
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
-  server: 69.84.182.152
+  server: 144.31.4.36
   port: 443
-  uuid: 2f466a3b-5093-4556-8759-c87c8511c753
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: plcdn13.suio.me
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  server: 208.103.161.110
+  port: 443
+  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
 - type: vless
-  name: '[Live] 🇬🇧_GB_英国'
-  server: 51.250.4.119
-  port: 443
-  uuid: 64a3a23c-363a-4bee-9401-f5c42eea5a27
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-- type: vless
-  name: '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  server: 158.160.221.132
-  port: 51102
-  uuid: 871fdc77-e6df-460d-ace3-b38ab82fb487
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vmess
-  name: '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: nodejs.org
+  port: 2052
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  network: ws
   tls: false
-- type: vless
-  name: '[Live] 🇧🇬_BG_保加利亚'
-  server: 31.13.208.89
-  port: 443
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  network: grpc
-  tls: true
   encryption: none
   flow: ''
-  servername: ads.x5.ru
-- type: vless
-  name: '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
-  server: 5.39.249.10
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sni.111000.indevs.in
 - type: vmess
   name: '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
   server: v8.hdacd.com
@@ -339,13 +349,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇦_UA_乌克兰'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇨🇭_CH_瑞士'
   - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  - '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Live] 🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国_1'
@@ -374,13 +385,14 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - '[Live] 🇷🇺_RU_俄罗斯'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇦_UA_乌克兰'
+  - '[Live] 🇳🇱_NL_荷兰'
+  - '[Live] 🇨🇭_CH_瑞士'
   - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇬🇧_GB_英国'
-  - '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  - '[Live] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
-  - '[Live] 🇧🇬_BG_保加利亚'
-  - '[Live] 🇬🇧_GB_英国->🇩🇪_DE_德国'
+  - '[Live] 🇺🇸_US_美国->🇫🇷_FR_法国'
+  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国_1'
