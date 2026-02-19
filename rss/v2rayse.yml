@@ -17,75 +17,85 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇮🇶_IQ_伊拉克'
-  server: 93.94.51.101
+  name: '[Live] 🇺🇸_US_美国'
+  server: nhj.1jj.ccwu.cc
   port: 443
-  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nhj.1jj.ccwu.cc
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
+  server: 84.23.52.70
+  port: 8443
+  uuid: 3f8e8529-9cb9-42a7-9a02-533ab8838114
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: deu549.worldbypass.org
+  servername: m.vk.ru
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 144.31.4.36
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 144.31.2.126
   port: 443
   uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: plcdn13.suio.me
+  servername: plcdn19.suio.me
 - type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: yandex.plansv.tech
+  name: '[Live] 🇨🇳_CN_中国'
+  server: 91.132.51.160
   port: 443
-  uuid: a0f19a84-450d-44b5-b1c7-8d6213addff2
+  uuid: fed05faf-401f-3412-b658-5c96f3095dd0
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: yandex.plansv.tech
+  servername: www.refersion.com
 - type: vless
-  name: '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
-  server: 158.160.105.121
-  port: 8443
-  uuid: 225f5dd9-d885-49ad-8e7f-c0900bbc2230
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 47.80.11.87
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  network: tcp
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: cdnjs.com
+  port: 2096
+  uuid: cdddbb3f-5481-4d12-e3ee-597f97910d21
+  network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: api.company-target.com
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 4.185.113.10
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: 135.220.73.1
   port: 443
   uuid: jina
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: jina-418511310-direct.yektanet.co
+  servername: jina-135220731-direct.yektanet.co
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: 144.31.4.67
+  name: '[Live] 🇻🇪_VE_委内瑞拉->🇪🇸_ES_西班牙'
+  server: 158.160.223.36
   port: 443
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  uuid: 2936e344-2c52-4508-9523-1f3ed6824770
   network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: plcdn14.suio.me
+  flow: xtls-rprx-vision
+  servername: yandex.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_4'
+  server: 20.79.160.49
+  port: 443
+  uuid: jina
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: jina-207916049-direct.yektanet.co
 - type: vless
   name: '[Free] 🇺🇸_US_美国'
   server: 103.219.194.43
@@ -341,13 +351,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇮🇶_IQ_伊拉克'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
   - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇻🇪_VE_委内瑞拉->🇪🇸_ES_西班牙'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
@@ -376,13 +387,14 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇮🇶_IQ_伊拉克'
   - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇻🇪_VE_委内瑞拉->🇵🇱_PL_波兰'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克'
   - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇨🇳_CN_中国'
   - '[Live] 🇺🇸_US_美国_2'
   - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇻🇪_VE_委内瑞拉->🇪🇸_ES_西班牙'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇮🇷_IR_伊朗->🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
