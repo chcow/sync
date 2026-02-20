@@ -17,24 +17,35 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: www.visa.com
-  port: 80
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 176.123.165.51
+  name: '[Live] 🇮🇶_IQ_伊拉克'
+  server: 93.94.51.101
   port: 443
-  uuid: 1160c9ed-96b2-4a3d-84b0-da0df343b31b
+  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: imgs.strelkavpn.com
+  servername: deu549.worldbypass.org
+- type: vless
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  server: 89.169.162.214
+  port: 443
+  uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: yandex.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: 144.31.128.67
+  port: 443
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nlcdn12.suio.me
 - type: vless
   name: '[Live] 🇺🇸_US_美国_1'
   server: 144.31.4.36
@@ -46,7 +57,47 @@ proxies:
   flow: ''
   servername: plcdn13.suio.me
 - type: vless
+  name: '[Live] 🇺🇦_UA_乌克兰->🇺🇸_US_美国'
+  server: data.cloudvibe.ir
+  port: 8443
+  uuid: 3b7ec44b-66d8-4822-b772-f1f50c3fec95
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: data-sm12.netsnap.ir
+- type: vless
   name: '[Live] 🇺🇸_US_美国_2'
+  server: 144.31.128.69
+  port: 443
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nlcdn14.suio.me
+- type: vless
+  name: '[Live] 🇫🇷_FR_法国->🇺🇸_US_美国'
+  server: fran.scroogethebest.com
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: fran.scroogethebest.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_3'
+  server: 144.31.128.68
+  port: 443
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: nlcdn13.suio.me
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_4'
   server: 144.31.2.126
   port: 443
   uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
@@ -55,56 +106,6 @@ proxies:
   encryption: none
   flow: ''
   servername: plcdn19.suio.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: 144.31.2.20
-  port: 443
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: plcdn18.suio.me
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  server: 89.169.162.214
-  port: 8443
-  uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yandex.ru
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯_1'
-  server: 82.202.169.120
-  port: 443
-  uuid: 4f6d6e02-d339-486d-a289-7fddcbcb52b0
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: frs.fasssst.online
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯_2'
-  server: 89.110.119.44
-  port: 443
-  uuid: 720c415d-f807-5a8d-9d0c-b86599a88a0b
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: yahoo.com
-- type: vless
-  name: '[Live] 未知'
-  server: dns.dressforida.monster
-  port: 443
-  uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: www.techradar.com
 - type: vless
   name: '[Free] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
   server: 69.84.182.13
@@ -379,15 +380,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇮🇶_IQ_伊拉克'
   - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯_1'
-  - '[Live] 🇷🇺_RU_俄罗斯_2'
-  - '[Live] 未知'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇺🇦_UA_乌克兰->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇫🇷_FR_法国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
   - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
@@ -418,15 +419,15 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇮🇶_IQ_伊拉克'
   - '[Live] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[Live] 🇷🇺_RU_俄罗斯_1'
-  - '[Live] 🇷🇺_RU_俄罗斯_2'
-  - '[Live] 未知'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_1'
+  - '[Live] 🇺🇦_UA_乌克兰->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_2'
+  - '[Live] 🇫🇷_FR_法国->🇺🇸_US_美国'
+  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国_4'
   - '[Free] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
   - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
