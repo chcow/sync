@@ -17,95 +17,74 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
-  server: 95.182.97.147
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
+  name: '[Live] 🇨🇭_CH_瑞士'
+  server: lvcdn4.suio.me
+  port: 443
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: sni.111000.v6.navy
+  servername: lvcdn4.suio.me
 - type: vless
   name: '[Live] 🇺🇸_US_美国'
-  server: 144.31.221.8
-  port: 443
-  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: test.spectrum.vu
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 20.79.162.37
-  port: 443
-  uuid: jina
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: jina-207916237-direct.yektanet.co
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 144.31.128.67
+  server: 144.31.128.68
   port: 443
   uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
   network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: nlcdn12.suio.me
-- type: vless
-  name: '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  server: s481.ccgfw.top
-  port: 443
-  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
+  servername: nlcdn13.suio.me
+- type: vmess
+  name: '[Live] 🇬🇧_GB_英国->🇧🇬_BG_保加利亚'
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
   network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: u708330uad0es481.ccgfw.top
+  tls: false
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: 63.141.128.2
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  server: 109.172.55.122
   port: 443
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  network: ws
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  network: tcp
   tls: true
   encryption: none
   flow: ''
-  servername: www.l7r.ir
+  servername: b12a6eea4807ca4e.1323.world
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: test.spectrum.vu
+  name: '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国_1'
+  server: fr.1323.world
   port: 443
-  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
   network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: test.spectrum.vu
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_5'
-  server: 104.18.32.47
-  port: 8443
-  uuid: 6e4db98d-0a7b-4e2b-9fa9-59795144b3dd
-  network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: nbx.parsfast.ir
+  servername: fr.1323.world
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_6'
-  server: 45.82.249.129
-  port: 8443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  name: '[Live] 🇺🇸_US_美国_1'
+  server: 64.188.64.59
+  port: 443
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yandex.ru
+- type: vless
+  name: '[Live] 🇺🇸_US_美国_2'
+  server: 152.53.46.200
+  port: 443
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: www.cloudflare.com
+  servername: at.jojack.ru
 - type: vless
   name: '[Free] 未知'
   server: dns.dressforida.monster
@@ -362,15 +341,13 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Live] 🇨🇭_CH_瑞士'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇬🇧_GB_英国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国_1'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
   - '[Free] 未知'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇭🇺_HU_匈牙利'
@@ -399,15 +376,13 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇪🇸_ES_西班牙->🇺🇸_US_美国'
+  - '[Live] 🇨🇭_CH_瑞士'
   - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇬🇧_GB_英国->🇧🇬_BG_保加利亚'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
+  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国_1'
   - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国->🇳🇱_NL_荷兰'
-  - '[Live] 🇺🇸_US_美国_3'
-  - '[Live] 🇺🇸_US_美国_4'
-  - '[Live] 🇺🇸_US_美国_5'
-  - '[Live] 🇺🇸_US_美国_6'
   - '[Free] 未知'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇭🇺_HU_匈牙利'
