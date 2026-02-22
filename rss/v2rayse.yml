@@ -17,73 +17,45 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: 20.79.160.49
+  name: '[Live] 🇬🇷_GR_希腊'
+  server: 185.234.57.216
   port: 443
-  uuid: jina
+  uuid: b824f264-8cc3-4669-9f60-47b51ed1aa11
   network: tcp
   tls: true
   encryption: none
-  flow: xtls-rprx-vision
-  servername: jina-207916049-direct.yektanet.co
+  flow: ''
+  servername: yahoo.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
+  server: 152.53.116.71
+  port: 443
+  uuid: 0d328214-7ebc-413a-9820-2260b38d2242
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: yahoo.com
+- type: vless
+  name: '[Live] 🇺🇸_US_美国'
+  server: ip-data.turkserver.ir
+  port: 2087
+  uuid: ad8a28d6-a327-4ccc-9335-41fdd9738437
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: all-um2.netsnap.ir.
 - type: vless
   name: '[Live] 🇷🇺_RU_俄罗斯'
-  server: 176.123.165.51
+  server: 89.232.177.29
   port: 443
-  uuid: 1160c9ed-96b2-4a3d-84b0-da0df343b31b
+  uuid: 9d648533-ee78-4250-bcb3-65ed18701852
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: imgs.strelkavpn.com
-- type: vless
-  name: '[Live] 未知'
-  server: 213.176.19.224
-  port: 443
-  uuid: 801c82f0-e350-4f10-91d5-731d02a6de04
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: tr7.strelkavpn.ru
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 104.20.1.252
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
-- type: vless
-  name: '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  server: 109.172.55.122
-  port: 443
-  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: b12a6eea4807ca4e.1323.world
-- type: vless
-  name: '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  server: 139.196.41.153
-  port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  network: ws
-  tls: true
-  encryption: none
-  flow: ''
-  servername: ylnhh.cc.cd
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: nodejs.org
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  encryption: none
-  flow: ''
+  servername: ru87.strelkavpn.com
 - type: vless
   name: '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
   server: 109.172.55.232
@@ -338,13 +310,10 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - '[Live] 🇬🇷_GR_希腊'
+  - '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 未知'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
@@ -373,13 +342,10 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - '[Live] 🇬🇷_GR_希腊'
+  - '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
   - '[Live] 🇺🇸_US_美国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 未知'
-  - '[Live] 🇺🇸_US_美国_1'
-  - '[Live] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
-  - '[Live] 🇨🇳_CN_中国->🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_2'
   - '[Free] 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇺🇸_US_美国_1'
