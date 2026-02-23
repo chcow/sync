@@ -17,46 +17,6 @@ dns:
   - 8.8.8.8
 proxies:
 - type: vless
-  name: '[Live] 🇨🇦_CA_加拿大->🇩🇪_DE_德国'
-  server: 162.248.166.74
-  port: 4444
-  uuid: 1b0ad61b-1be2-4cda-9979-984a965b0da5
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  servername: github.com
-- type: vless
-  name: '[Live] 🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯'
-  server: 83.147.252.165
-  port: 443
-  uuid: 95e3a7e6-ff2b-4554-b107-8ff4c58b7981
-  network: tcp
-  tls: true
-  encryption: none
-  flow: ''
-  servername: sun6-20.userapi.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国'
-  server: s719.okgfw.top
-  port: 443
-  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: u708330u9530s719.okgfw.top
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_1'
-  server: 20.79.160.49
-  port: 443
-  uuid: jina
-  network: tcp
-  tls: true
-  encryption: none
-  flow: xtls-rprx-vision
-  servername: jina-207916049-direct.yektanet.co
-- type: vless
   name: '[Live] 🇨🇳_CN_中国'
   server: 2.hk.1.cdn-bilibili.cn
   port: 443
@@ -67,25 +27,45 @@ proxies:
   flow: xtls-rprx-vision
   servername: www.icloud.com
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_2'
-  server: 104.19.58.118
+  name: '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
+  server: 152.53.46.200
   port: 443
-  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
-  network: ws
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  network: tcp
   tls: true
   encryption: none
-  flow: ''
-  servername: us1-us1.aiopen.sbs
+  flow: xtls-rprx-vision
+  servername: at.jojack.ru
 - type: vless
-  name: '[Live] 🇺🇸_US_美国_3'
-  server: www.visasoutheasteurope.com
-  port: 2096
-  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
+  name: '[Live] 🇺🇸_US_美国'
+  server: ivyprotocol.com
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   network: ws
   tls: true
   encryption: none
   flow: ''
-  servername: daluan.eu.org
+  servername: afrcloud22.mmv.kr
+- type: vless
+  name: '[Live] 🇨🇭_CH_瑞士'
+  server: 138.124.73.80
+  port: 8443
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  network: tcp
+  tls: true
+  encryption: none
+  flow: ''
+  servername: sun6-21.userapi.com
+- type: vless
+  name: '[Live] 🇫🇷_FR_法国'
+  server: 193.160.130.112
+  port: 443
+  uuid: 70b49349-9c87-497e-818c-46006e1c3ce0
+  network: tcp
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: yimg.com
 - type: vless
   name: '[Live] 🇷🇺_RU_俄罗斯'
   server: 194.87.31.160
@@ -97,25 +77,25 @@ proxies:
   flow: xtls-rprx-vision
   servername: st.okcdn.ru
 - type: vless
-  name: '[Live] 🇨🇦_CA_加拿大'
-  server: 142.248.80.157
+  name: '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
+  server: 69.84.182.13
   port: 443
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  network: ws
+  tls: true
+  encryption: none
+  flow: ''
+  servername: jp1-jp1.aiopen.sbs
+- type: vless
+  name: '[Live] 🇬🇧_GB_英国'
+  server: 51.250.65.209
+  port: 443
+  uuid: 53b2c46d-bc0a-4696-9d87-6bfa77a60d1f
   network: tcp
   tls: true
   encryption: none
   flow: xtls-rprx-vision
-  servername: apple.com
-- type: vless
-  name: '[Live] 🇺🇸_US_美国_4'
-  server: s842.ccgfw.top
-  port: 443
-  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
-  network: grpc
-  tls: true
-  encryption: none
-  flow: ''
-  servername: u708330u0378s842.ccgfw.top
+  servername: ads.x5.ru
 - type: vless
   name: '[Free] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
   server: 152.53.116.71
@@ -389,16 +369,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '[Live] 🇨🇦_CA_加拿大->🇩🇪_DE_德国'
-  - '[Live] 🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇨🇭_CH_瑞士'
+  - '[Live] 🇫🇷_FR_法国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇫🇷_FR_法国'
@@ -429,16 +407,14 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[Live] 🇨🇦_CA_加拿大->🇩🇪_DE_德国'
-  - '[Live] 🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯'
-  - '[Live] 🇺🇸_US_美国'
-  - '[Live] 🇺🇸_US_美国_1'
   - '[Live] 🇨🇳_CN_中国'
-  - '[Live] 🇺🇸_US_美国_2'
-  - '[Live] 🇺🇸_US_美国_3'
+  - '[Live] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
+  - '[Live] 🇺🇸_US_美国'
+  - '[Live] 🇨🇭_CH_瑞士'
+  - '[Live] 🇫🇷_FR_法国'
   - '[Live] 🇷🇺_RU_俄罗斯'
-  - '[Live] 🇨🇦_CA_加拿大'
-  - '[Live] 🇺🇸_US_美国_4'
+  - '[Live] 🇺🇸_US_美国->🇳🇿_NZ_新西兰'
+  - '[Live] 🇬🇧_GB_英国'
   - '[Free] 🇺🇸_US_美国->🇦🇹_AT_奥地利'
   - '[Free] 🇺🇸_US_美国'
   - '[Free] 🇫🇷_FR_法国'
